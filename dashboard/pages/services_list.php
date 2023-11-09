@@ -3,7 +3,7 @@ include_once "../init.php";
 
 authorized_user_only();
 
- $query_to_fetch_states = "SELECT * FROM `new_services`";
+ $query_to_fetch_states = "SELECT * FROM `services`";
 $services_list = fetch_all_data($query_to_fetch_states);
 
 

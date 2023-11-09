@@ -9,9 +9,9 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     $slug = senitize_string($_POST['slug']);
     $meta =  senitize_string($_POST['meta']);
     $h1 = senitize_string($_POST['h1']);
-    $h1_about = senitize_string($_POST['point1']);
-    // $h1_about = senitize_string($_POST['point2']);
-    // $h1_about = senitize_string($_POST['point3']);
+    $ponit1 = senitize_string($_POST['point1']);
+    $ponit2 = senitize_string($_POST['point2']);
+    $ponit3 = senitize_string($_POST['point3']);
     $h2 = senitize_string($_POST['h2']);
     $h2_about = senitize_string($_POST['h2_about']);
     $content = senitize_string($_POST['content']);
@@ -19,7 +19,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     // $models = $_POST['city_zip'];
 
         
-    $sql_query = "INSERT INTO new_services (title, slug, meta, h1, h1_about, h2, h2_about, content,added_on) VALUES ('$title', '$slug', '$meta', '$h1', '$h1_about', '$h2', '$h2_about', '$content','$timestamp')";
+    $sql_query = "INSERT INTO services (title, slug, meta, h1,ponit2,ponit3,ponit1, h1_about, h2, h2_about, content,added_on) VALUES ('$title', '$slug', '$meta', '$h1', '$ponit2', '$ponit3', '$ponit1', '$h2', '$h2_about', '$content','$timestamp')";
     $insert = mysqli_query($con, $sql_query) or die("insert query failed");
     
 
