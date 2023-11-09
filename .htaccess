@@ -1,0 +1,21 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+Options -Indexes
+RewriteCond %{HTTPS} off
+
+ReWriteRule ^$  index.php [NC,L]
+#ReWriteRule ^login([/]?)$ pages/login.php [NC,L]
+
+
+# Company Reviews Start
+
+ReWriteRule more-services([/]?)$ more-services.php [NC,L]
+ReWriteRule services-page([/]?)$ services-page.php [NC,L]
+ReWriteRule about-us([/]?)$ about-us.php [NC,L]
+ReWriteRule request-a-free-quote([/]?)$ request-a-free-quote.php [NC,L]
+ReWriteRule blogs([/]?)$ place-a-deposit.php [NC,L]
+
+
+
+#ReWriteRule ^company-reviews/add([/]?)$ pages/add_company_review.php [NC,L]
+#ReWriteRule ^company-reviews/edit/([0-9]+)([/]?)$ pages/edit_company_review.php?_id=$1 [NC,L]

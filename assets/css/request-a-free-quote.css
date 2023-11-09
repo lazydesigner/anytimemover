@@ -1,0 +1,97 @@
+.request-a-free-quote{padding: 2.5% 10%;}
+.request-top{
+width: 100%;
+height: 220px;
+background-color: #434daf;
+padding:.1% 5%;
+text-align: center;
+color: white;
+}
+.request-top p{
+    margin: 3% 0;
+}
+.request-one{
+    font-weight: 1000;
+}
+.request-two{
+    font-size: 25px;
+}
+.request-form{
+    width: 100%;
+    height: auto;    
+    background-color:#ededed ;
+    padding: 3% 1%;
+}
+table{width: 100%;}
+.form-group{
+    padding:3%;
+}
+.from-box .h2{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    color: rgb(33, 33, 32);
+    opacity: .8;
+}
+.from-box .h2 h2{margin: 0;padding: 0;}
+.table-td{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.table-contact, .table-td p{
+    font-weight: bold;
+    color: rgb(33, 33, 32);
+    opacity: .8;
+}
+input{
+    width: 70px;
+    height: 30px;
+    outline: 0;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 2%;
+}
+.table-contact{
+    display: flex;
+    align-items: baseline;
+    /* align-items: center; */
+    gap: 1%;
+}
+.table-contact input{
+    width: 250px;
+    height: 35px;
+    outline: 0;
+    border: 1px solid lightgrey;
+}
+._address_ input{
+    margin: 3% 0;
+}
+.address_{
+    display: flex;
+    align-items: center;
+    gap: .5%;
+}
+._address_ .add-a{
+    width: 300px;
+}
+.address_ input{
+    width: 149px;
+}
+select{
+    width: 250px;
+    height: 35px;
+    border: 1px solid lightgray;
+    outline: 0;
+}
+
+.tr{
+    display: flex;
+    align-items:baseline;
+    justify-content: space-evenly;
+    gap: 2%;
+}
+.tr ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}

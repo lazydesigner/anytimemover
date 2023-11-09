@@ -1,0 +1,32 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-f
+Options -Indexes
+
+ReWriteRule ^$  pages/services_list.php [NC,L]
+ReWriteRule ^login([/]?)$ pages/login.php [NC,L]
+
+
+
+# Company Reviews End
+ReWriteRule ^fetch_data([/]?)$ pages/fetch_data.php [NC,L]
+ReWriteRule ^send-mail([/]?)$ send__mail_to.php [NC,L]
+ReWriteRule ^confermation_mail([/]?)$ confermation_mail.php [NC,L]
+ReWriteRule ^update_status([/]?)$ update_status.php [NC,L]
+ReWriteRule ^reminder-mail([/]?)$ reminder.php [NC,L]
+
+
+ReWriteRule ^chat-dashboard([/]?)$ chat/admin/index.php [NC,L]
+ReWriteRule ^chat-dashboard-login([/]?)$ chat/admin/login.php [NC,L]
+ReWriteRule ^chat-setting([/]?)$ chat/admin/setting.php [NC,L]
+
+ReWriteRule ^form_qoute([/]?)$ pages/form_qoute.php [NC,L]
+
+ReWriteRule ^blogs([/]?)$ pages/blogs_list.php [NC,L]
+ReWriteRule ^blogs/add([/]?)$ pages/add_blogs.php [NC,L]
+ReWriteRule ^blogs/edit/([0-9]+)/([0-9A-Za-z\-_]+)([/]?)$ pages/edit_blogs.php?_id=$1&table=$2 [NC,L]
+
+
+ReWriteRule ^service([/]?)$ pages/services_list.php [NC,L]
+ReWriteRule ^service/add([/]?)$ pages/add_services.php [NC,L]
+ReWriteRule ^service/edit/([0-9]+)/([0-9A-Za-z\-_]+)([/]?)$ pages/edit_services.php?_id=$1&table=$2 [NC,L]
+#ReWriteRule ^service/edit/([0-9]+)([/]?)$ pages/edit_services.php?_id=$1 [NC,L]
