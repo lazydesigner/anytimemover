@@ -52,9 +52,9 @@ if (mode == 1) {
     // $DB_PASS = "G1*j!t~Q^A&g";
     // $DB_NAME = "u841070527_autoshipping";
     $DB_HOST = "localhost";
-    $DB_USER = "u841070527_rapid";
+    $DB_USER = "u789318280_anytime";
     $DB_PASS = "Smile@1427";
-    $DB_NAME = "u841070527_autoshipping";
+    $DB_NAME = "u789318280_anytime";
 
 
     $img_url = "//dashboard.rapidautoshipping.com/assets/images/blog/";
@@ -70,7 +70,7 @@ if (mode == 1) {
     $DB_HOST = "localhost";
     $DB_USER = "root";
     $DB_PASS = "";
-    $DB_NAME = "rapid_backup";
+    $DB_NAME = "anytime";
 
     $img_url = get_img();
 }

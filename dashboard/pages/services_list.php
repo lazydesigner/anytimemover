@@ -2,13 +2,9 @@
 include_once "../init.php";
 
 authorized_user_only();
- if(isset($_POST['table_s'])){
-                $query_to_fetch_states = "SELECT * FROM `{$_POST['table_s']}`";
+
+ $query_to_fetch_states = "SELECT * FROM `new_services`";
 $services_list = fetch_all_data($query_to_fetch_states);
-            }else{
-                $query_to_fetch_states = "SELECT * FROM `services`";
-$services_list = fetch_all_data($query_to_fetch_states);
-            }
 
 
 ?>
@@ -65,10 +61,10 @@ $services_list = fetch_all_data($query_to_fetch_states);
 
  <div class="page-header-btn-container">
                  <div class="form-group">
-            <select id="table_s" name="table_s" required="" style = "width:100%">
+            <!-- <select id="table_s" name="table_s" required="" style = "width:100%">
                 <option value="services">Old services</option>
                 <option value="new_services">New services</option>
-            </select>
+            </select> -->
         </div>
                 <input type="text" name="" id="search" placeholder="Search" onkeyup="serach_data(this.value)">
                 <a href="<?= home_path() . '/service/add'  ?>" class="btn-yellow-1">Add Services</a>
@@ -102,7 +98,7 @@ $services_list = fetch_all_data($query_to_fetch_states);
                             <tr>
                                 <td><?php echo $row['title'];?></td>
                                 <td><?php echo $row['slug'] ;?></td>
-                                <td><button class="view_btn"><a href="https://rapidautoshipping.com/services/<?= $row['slug'] ?>">View</a></button> <button class="edit_btn"><a href="<?= home_path() . "/service/edit/" . $row['id'];?>/services">Edit</a></button></td>
+                                <td><button class="view_btn"><a href="https://anytimemover.com/<?= $row['slug'] ?>">View</a></button> <button class="edit_btn"><a href="<?= home_path() . "/service/edit/" . $row['id'];?>/services">Edit</a></button></td>
                             </tr>
                            <?php }
                     }else{ ; ?>

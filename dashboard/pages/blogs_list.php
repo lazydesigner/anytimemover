@@ -68,10 +68,10 @@ $blogs_list = fetch_all_data($query_to_fetch_states);
 
             <div class="page-header-btn-container">
                 <div class="form-group">
-            <select id="table_s" name="table_s" required style = "width:100%">
+            <!-- <select id="table_s" name="table_s" required style = "width:100%">
                 <option value="blogs">Old Blog page</option>
                 <option value="new_blogs">New blog page</option>
-            </select>
+            </select> -->
         </div>
                 <input type="text" name="" id="search" placeholder="Search" onkeyup="serach_data(this.value)">
                 <a href="<?= home_path() . '/blogs/add'  ?>" class="btn-yellow-1">Add Blog</a>
@@ -104,7 +104,7 @@ $blogs_list = fetch_all_data($query_to_fetch_states);
                             <tr>
                                 <td><?php echo $row['title'];?></td>
                                 <td><?php echo $row['slug'] ;?></td>
-                                <td><button class="view_btn"><a href="https://rapidautoshipping.com/blogs/<?= $row['slug'] ?>">View</a></button> <button class="edit_btn"><a href="<?= home_path() . "/blogs/edit/" . $row['id'];?>/blogs">Edit</a></button></td>
+                                <td><button class="view_btn"><a href="https://anytimemover.com/<?= $row['slug'] ?>">View</a></button> <button class="edit_btn"><a href="<?= home_path() . "/blogs/edit/" . $row['id'];?>/blogs">Edit</a></button></td>
                             </tr>
                            <?php }
                     }else{ ; ?>
