@@ -2,6 +2,7 @@ RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-f
 Options -Indexes
 RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 ReWriteRule ^$  index.php [NC,L]
 #ReWriteRule ^login([/]?)$ pages/login.php [NC,L]
