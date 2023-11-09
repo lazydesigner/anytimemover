@@ -350,7 +350,7 @@ input[type='submit']{
     }
     .contact-section-col1{height: auto;}
     .contact-section-col{height: auto;width: 100%;flex: 100%;}
-    
+    .call-to-action-col button{width: 80%;}
 }
 
 

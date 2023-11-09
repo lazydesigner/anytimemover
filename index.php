@@ -209,7 +209,14 @@
         </div>
     </section>
     <?php include './footer.php'; ?>
-
+    <script>
+        document.getElementById('close-the-nav').addEventListener('click',()=>{
+            document.getElementById('flex2').style.transform = 'scale(0)'
+        })
+        document.getElementById('three-line-menu').addEventListener('click',()=>{
+            document.getElementById('flex2').style.transform = 'scale(1)'
+        })
+    </script>
 </body>
 
 </html>

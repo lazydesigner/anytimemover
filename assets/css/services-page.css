@@ -37,3 +37,7 @@
     background-color: #3366ff;
     color: white;
 }
+
+@media screen and (max-width:500px) {
+    .section-service-btn{width: 90%;}
+}
