@@ -19,7 +19,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
     // $models = $_POST['city_zip'];
 
         
-    $sql_query = "INSERT INTO services (title, slug, meta, h1,ponit2,ponit3,ponit1, h1_about, h2, h2_about, content,added_on) VALUES ('$title', '$slug', '$meta', '$h1', '$ponit2', '$ponit3', '$ponit1', '$h2', '$h2_about', '$content','$timestamp')";
+    $sql_query = "INSERT INTO services (title, slug, meta, h1,ponit2,ponit3,ponit1, h2, h2_about, content,added_on) VALUES ('$title', '$slug', '$meta', '$h1', '$ponit2', '$ponit3', '$ponit1', '$h2', '$h2_about', '$content','$timestamp')";
     $insert = mysqli_query($con, $sql_query) or die("insert query failed");
     
 
