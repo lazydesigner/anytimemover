@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Request a Free Quote - Anytime Movers</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css" integrity="sha512-/VYneElp5u4puMaIp/4ibGxlTd2MV3kuUIroR3NSQjS2h9XKQNebRQiyyoQKeiGE9mRdjSCIZf9pb7AVJ8DhCg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="<?=base_url() ?>assets/css/footer.css">
-    <link rel="stylesheet" href="<?=base_url() ?>assets/css/navbar.css">
-    <link rel="stylesheet" href="<?=base_url() ?>assets/css/request-a-free-quote.css">
+    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/footer.css">
+    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/navbar.css">
+    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/request-a-free-quote.css">
 </head>
 
 <body>

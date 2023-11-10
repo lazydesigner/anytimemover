@@ -1,5 +1,5 @@
 <?php
-function base_url(){
+function base_urlx(){
 
     $protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? 'https://' : 'http://';
 
