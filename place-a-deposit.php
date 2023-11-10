@@ -1,3 +1,4 @@
+<?php include './routes.php' ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Place A Deposit - Anytime Movers</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css" integrity="sha512-/VYneElp5u4puMaIp/4ibGxlTd2MV3kuUIroR3NSQjS2h9XKQNebRQiyyoQKeiGE9mRdjSCIZf9pb7AVJ8DhCg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./assets/css/footer.css">
-    <link rel="stylesheet" href="./assets/css/navbar.css">
-    <link rel="stylesheet" href="./assets/css/deposit.css">
+    <link rel="stylesheet" href="<?=base_url() ?>assets/css/footer.css">
+    <link rel="stylesheet" href="<?=base_url() ?>assets/css/navbar.css">
+    <link rel="stylesheet" href="<?=base_url() ?>assets/css/deposit.css">
 </head>
 <body>
 <div  style="position:relative; width:100%;height:70px"><?php include './navbar.php'; ?></div>

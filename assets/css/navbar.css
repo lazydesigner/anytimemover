@@ -51,15 +51,15 @@ nav ul li a::after{
     transition: .1s transform;
     opacity: 0;
     margin: auto;
-    background-color: steelblue;
+    background-color: rgb(105, 174, 230);
 }
 nav ul li a:hover::after{
     transform: scale(1);
     opacity: .8;
 }
-nav ul li:hover{color: steelblue;}
+nav ul li:hover{color: rgb(105, 174, 230);}
 nav ul li a:hover{
-    color:steelblue;
+    color:rgb(105, 174, 230);
     text-decoration:solid;
     opacity: .9;
 }
