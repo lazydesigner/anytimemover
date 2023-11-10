@@ -95,3 +95,7 @@ select{
     margin: 0;
     list-style: none;
 }
+
+@media screen and (max-width:500px) {
+    .tr{flex-wrap: wrap;}
+}
