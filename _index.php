@@ -1,5 +1,6 @@
 <?php
-include './dashboard/init.php';
+include './dashboard/services/__api.php';
+
 $slug = $_GET['page_id'];
 
 $query = "SELECT * FROM services WHERE `slug` = '$slug' ";
