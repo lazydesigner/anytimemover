@@ -98,7 +98,7 @@ $services_list = fetch_all_data($query_to_fetch_states);
                             <tr>
                                 <td><?php echo $row['title'];?></td>
                                 <td><?php echo $row['slug'] ;?></td>
-                                <td><button class="view_btn"><a href="https://anytimemover.com/<?= $row['slug'] ?>">View</a></button> <button class="edit_btn"><a href="<?= home_path() . "/service/edit/" . $row['id'];?>/services">Edit</a></button></td>
+                                <td><button class="view_btn"><a href="https://anytimemove.com/<?= $row['slug'] ?>">View</a></button> <button class="edit_btn"><a href="<?= home_path() . "/service/edit/" . $row['id'];?>/services">Edit</a></button></td>
                             </tr>
                            <?php }
                     }else{ ; ?>
