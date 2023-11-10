@@ -5,7 +5,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anytimemover</title>
+    
+    <title>Residential & Corporate Moving | Long Distance & Car Movers | Anytime Move</title>
+
+    <meta name="title" content="Residential & Corporate Moving | Long Distance & Car Movers | Anytime Move">
+    <meta name="description" content="Anytimemoves is a reliable and experienced company that deals in residential moving ,corporate moving with long distance moves facilities and contact us for your requirements we will provide best services at affordable prices." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Residential & Corporate Moving | Long Distance & Car Movers | Anytime Move"/>
+    <meta property="og:description" content="Anytimemoves is a reliable and experienced company that deals in residential moving ,corporate moving with long distance moves facilities and contact us for your requirements we will provide best services at affordable prices." />
+    <meta property="og:url" content="https://anytimemove.com/" />
+    <meta property="og:site_name" content="Residential & Corporate Moving | Long Distance & Car Movers | Anytime Move" />
+    <meta name='robots' content='index' />
+    <meta name="keywords" content="Corporate Relocation Services, Employee Relocation Services,Corporate moving service, Corporate relocation movers, Residential moving company, Residential moving services, Residential Movers, Long distance residential movers">
+    <meta property="article:tag" content="Corporate Relocation Services" />
+    <meta property="article:tag" content="Employee Relocation Services" />
+    <meta property="article:tag" content="Corporate moving service" />
+    <meta property="article:tag" content="Corporate relocation movers" />
+    <meta property="article:tag" content="Residential moving company" />
+    <meta property="article:tag" content="Residential moving services" />
+    <meta property="article:tag" content="Residential Movers" />
+    <meta property="article:tag" content="Long distance residential movers" />
+    <meta property="article:tag" content="moving car service" />
+    <meta property="article:tag" content="car moving companies" />
+    <meta property="article:tag" content="car shipping service" />
+    <meta property="article:tag" content="car movers near me" />
+    <meta property="article:tag" content="auto moving companies" />
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css" integrity="sha512-/VYneElp5u4puMaIp/4ibGxlTd2MV3kuUIroR3NSQjS2h9XKQNebRQiyyoQKeiGE9mRdjSCIZf9pb7AVJ8DhCg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="<?=base_url() ?>assets/css/index.css">
     <link rel="stylesheet" href="<?=base_url() ?>assets/css/footer.css">
