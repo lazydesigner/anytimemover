@@ -1,3 +1,18 @@
+<?php
+include './dashboard/init.php';
+$slug = $_GET['page_id'];
+
+$query = "SELECT * FROM services WHERE `slug` = '$slug' ";
+$result = mysqli_query($con, $query);
+
+if(mysqli_num_rows($result) > 0){
+    $row = mysqli_fetch_assoc($result);
+}else{
+    echo 'Page Not Found';
+}
+
+
+?>
 <?php include './routes.php' ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -5,7 +20,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>More Services - Anytime Movers</title>
+    <title><?=$row['title'] ?></title>
+    <?=$row['meta'] ?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css" integrity="sha512-/VYneElp5u4puMaIp/4ibGxlTd2MV3kuUIroR3NSQjS2h9XKQNebRQiyyoQKeiGE9mRdjSCIZf9pb7AVJ8DhCg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="<?=base_url() ?>assets/css/footer.css">
     <link rel="stylesheet" href="<?=base_url() ?>assets/css/navbar.css">
