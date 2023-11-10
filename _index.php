@@ -115,15 +115,15 @@ if(mysqli_num_rows($result) > 0){
                 </div>
             </div>
             <div class="service-hero-section-col">
-                <h1 class="service-hero-h1">Best Terminal to Terminal Auto Transport Services</h1>
+                <h1 class="service-hero-h1"><?=$row['h1'] ?></h1>
                 <div>
                     <ul class="service-hero-p" style="list-style: none;">
-                        <li><span><i class="ri-share-forward-fill"></i></span>This setup ensures that the items </li>
-                        <li><span><i class="ri-share-forward-fill"></i></span>This setup ensures that the items </li>
-                        <li><span><i class="ri-share-forward-fill"></i></span>This setup ensures that the items </li>
+                        <li><span><i class="ri-share-forward-fill"></i></span><?=$row['ponit1'] ?></li>
+                        <li><span><i class="ri-share-forward-fill"></i></span><?=$row['ponit2'] ?></li>
+                        <li><span><i class="ri-share-forward-fill"></i></span><?=$row['ponit3'] ?></li>
                     </ul>
                 </div>
-                <!-- <p class="service-hero-p">This setup ensures that the items inside the flex container take up 30%, 40%, and 30% of the container's width respectively, with equal spacing between them due to justify-content: space-between;. You can adjust the percentage values to match your specific layout requirements.</p> -->
+                <!-- <p class="service-hero-p">inside the flex container take up 30%, 40%, and 30% of the container's width respectively, with equal spacing between them due to justify-content: space-between;. You can adjust the percentage values to match your specific layout requirements.</p> -->
             </div>
         </div>
     </section>
@@ -299,50 +299,7 @@ if(mysqli_num_rows($result) > 0){
             </div>
         </div>
         <div class="content">
-            <h2>What are Terminal to Terminal Auto Transport Services?</h2>
-            <p>Terminal to terminal auto transport services (TTA) is a type of logistics service that connects two or more different locations</p>
-            <h3>Definition </h3>
-            <p>Terminal to terminal auto transport services involve the transport of vehicles between designated terminals. These terminals act as hubs where vehicles are dropped off and picked up.</p>
-            <h3>How It Works </h3>
-            <p>At the starting point, you leave your vehicle at a designated terminal. The auto transport company then loads it onto a carrier and transports it to another terminal near your destination. You can collect your vehicle from this terminal at your convenience.</p>
-            <h2>Advantages of Terminal to Terminal Auto Transport </h2>
-            <ul>
-                <li><b>Lorem ipsum : </b> dolor sit amet consectetur, adipisicing elit. Voluptate, minima.</li>
-                <li><b>Lorem ipsum : </b> dolor sit amet consectetur, adipisicing elit. Voluptate, minima.</li>
-                <li><b>Lorem ipsum : </b> dolor sit amet consectetur, adipisicing elit. Voluptate, minima.</li>
-                <li><b>Lorem ipsum : </b> dolor sit amet consectetur, adipisicing elit. Voluptate, minima.</li>
-                <li><b>Lorem ipsum : </b> dolor sit amet consectetur, adipisicing elit. Voluptate, minima.</li>
-                <li><b>Lorem ipsum : </b> dolor sit amet consectetur, adipisicing elit. Voluptate, minima.</li>
-            </ul>
-            <p>Moving your vehicle using terminal to terminal services offers several benefits:</p>
-            <h3>Cost-Effectiveness </h3>
-            <p>Terminal to terminal services are often more affordable because the company can optimize their routes and schedules.</p>
-            <h3>Convenience</h3>
-            <p>You don't have to worry about meeting the driver at a specific location. Terminals are easily accessible, making the process convenient for both pick-up and drop-off.</p>
-            <h3>Safe and Secure </h3>
-            <p>Terminals have enhanced security measures, ensuring your vehicle is safe during transit.</p>
-            <h3>Flexible Timelines </h3>
-            <p>You have the flexibility to drop off and pick up your vehicle within the terminal's operating hours, accommodating your schedule</p>
-            <h2>How to Choose the Best Terminal to Terminal Auto Transport Service</h2>
-            <p>Choosing the right service provider is crucial for a stress-free experience. Here's how you can make an informed decision:</p>
-            <div class="anytime-mover-image"><img src="./assets/images/Car-Rentals-Company.webp" alt=""></div>
-            <h2>Research </h2>
-            <p>Look for reputable companies online. Read customer reviews and testimonials to gauge their service quality.</p>
-            <h3>Services Offered </h3>
-            <p>Check the range of services offered. Some companies provide additional services like vehicle tracking and insurance, enhancing your overall experience.</p>
-            <h3>Pricing </h3>
-            <p>Get quotes from multiple companies and compare their prices. Ensure there are no hidden fees and ask for a detailed breakdown of the costs.</p>
-            <h3>Insurance Coverage</h3>
-            <p>Verify the insurance coverage provided by the company. It's essential to know what is covered in case of any damages during transit.</p>
-            <h2>Things to Consider Before Using Terminal to Terminal Services</h2>
-            <p>Before you entrust your vehicle to an auto transport company, consider the following factors:</p>
-            <h3>Vehicle Preparation</h3>
-            <p>Clean your vehicle thoroughly and document any existing damages. This documentation will be essential in case of disputes.</p>
-            <h3>Terminal Locations </h3>
-            <div class="anytime-mover-image"><img src="./assets/images/open Air Transport.webp" alt=""></div>
-            <p>Check the locations of the terminals. Ensure they are convenient for both drop-off and pick-up, minimizing your travel time.</p>
-            <h3>Transit Time</h3>
-            <p>Inquire about the estimated transit time between terminals. This information will help you plan your vehicle pickup accordingly. </p>
+            <?=$row['content'] ?>
 
         </div>
         <div style="background-color: lightblue;">
@@ -605,3 +562,4 @@ if(mysqli_num_rows($result) > 0){
 </body>
 
 </html>
+<!-- <div class="anytime-mover-image"><img src="./assets/images/open Air Transport.webp" alt=""></div> -->
