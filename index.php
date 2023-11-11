@@ -93,25 +93,25 @@
         </div>
         <div class="list-of-service">
             <div class="box">
-                <div class="list-of-service-img"><img src="<?=base_url() ?>assets/images/South-Florida-Movers1-e1463070625660.png" alt=""></div>
+                <div class="list-of-service-img"><img src="<?=base_urlx() ?>assets/images/South-Florida-Movers1-e1463070625660.png" alt=""></div>
                 <h3>RESIDENTIAL MOVES</h3>
                 <p>We understand changing homes can be stressful, but your moving experience doesn’t have to be.</p>
                 <a href="services-page" style="cursor: pointer;"><button><i class="ri-truck-fill"></i>Learn More</button></a>
             </div>
             <div class="box">
-                <div class="list-of-service-img"><img src="<?=base_url() ?>assets/images/Tri-country-movers.png" alt=""></div>
+                <div class="list-of-service-img"><img src="<?=base_urlx() ?>assets/images/Tri-country-movers.png" alt=""></div>
                 <h3>CORPORATE RELOCATION</h3>
                 <p>When it come to commercial moves, no job is too big or too small. </p>
                 <a href="services-page" style="cursor: pointer;"><button><i class="ri-truck-fill"></i>Learn More</button></a>
             </div>
             <div class="box">
-                <div class="list-of-service-img"><img src="<?=base_url() ?>assets/images/Moving-South-Florida.png" alt=""></div>
+                <div class="list-of-service-img"><img src="<?=base_urlx() ?>assets/images/Moving-South-Florida.png" alt=""></div>
                 <h3>PRICING OPTIONS</h3>
                 <p>We try to accommodate every customer on every job. See our pricing options.</p>
                 <a href="services-page" style="cursor: pointer;"><button><i class="ri-money-dollar-circle-line"></i>Learn More</button></a>
             </div>
             <div class="box">
-                <div class="list-of-service-img"><img src="<?=base_url() ?>assets/images/Best-Movers-South-Florida.png" alt=""></div>
+                <div class="list-of-service-img"><img src="<?=base_urlx() ?>assets/images/Best-Movers-South-Florida.png" alt=""></div>
                 <h3>LONG DISTANCE MOVES</h3>
                 <p>We handle long distance moves with the same dedication and care as our local moves. </p>
                 <a href="services-page" style="cursor: pointer;"><button><i class="ri-shuffle-line"></i>Learn More</button></a>
@@ -206,7 +206,7 @@
         <div class="recent-blogs-row">
             <div class="recent-blogs-col">
                 <div class="blogs">
-                    <div class="blogs-img"><img src="<?=base_url() ?>assets/images/open Air Transport.webp" alt=""></div>
+                    <div class="blogs-img"><img src="<?=base_urlx() ?>assets/images/open Air Transport.webp" alt=""></div>
                     <div style="padding:1% 2%;">
                     <a href="#"><h4>Lorem ipsum dolor sit amet.</h4></a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolor fugit inventore sunt nemo quae voluptas ex fuga veritatis necessitatibus!</p>
@@ -215,7 +215,7 @@
             </div>
             <div class="recent-blogs-col">
                 <div class="blogs">
-                    <div class="blogs-img"><img src="<?=base_url() ?>assets/images/17899070.webp" alt=""></div>
+                    <div class="blogs-img"><img src="<?=base_urlx() ?>assets/images/17899070.webp" alt=""></div>
                     <div style="padding:1% 2%;">
                     <a href="#"><h4>Lorem ipsum dolor sit amet.</h4></a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolor fugit inventore sunt nemo quae voluptas ex fuga veritatis necessitatibus!</p>
@@ -224,7 +224,7 @@
             </div>
             <div class="recent-blogs-col">
                 <div class="blogs">
-                    <div class="blogs-img"><img src="<?=base_url() ?>assets/images/87210796.webp" alt=""></div>
+                    <div class="blogs-img"><img src="<?=base_urlx() ?>assets/images/87210796.webp" alt=""></div>
                     <div style="padding:1% 2%;">
                     <a href="#"><h4>Lorem ipsum dolor sit amet.</h4></a>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolor fugit inventore sunt nemo quae voluptas ex fuga veritatis necessitatibus!</p>
