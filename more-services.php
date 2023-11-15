@@ -10,7 +10,24 @@
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/footer.css">
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/navbar.css">
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/more-services.css">
-
+    <style>
+.hero-of-services{
+    width: 100%;
+    display: grid;
+    place-items: center;
+    height: 400px;
+    /* background-color: grey; */
+    box-shadow: 0px 300px 81px -42px grey inset;
+-webkit-box-shadow: 0px 300px 81px -42px grey inset;
+-moz-box-shadow: 0px 300px 81px -42px grey inset;
+}
+.hero-of-services h1{padding: 0;margin: 0;font-size: 3rem;width: 50%;text-align: center;font-weight: 900;color: white;}
+@media screen and (max-width:500px) {
+    .hero-of-services h1{
+        width: 100%;
+    }
+}
+    </style>
 </head>
 
 <body>
