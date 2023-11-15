@@ -40,7 +40,7 @@
 <body>
     <div class="hero-section">
         <div class="background-color"></div>
-        <img src="<?=base_urlx() ?>assets/images/anytimemover.webp" width="100%" height="100%" alt="">
+        <div class="hero-s"><img src="<?=base_urlx() ?>assets/images/anytimemover.webp" width="100%" height="100%" alt=""></div>
         <!-- <video autoplay loop width="100%" muted poster="<?=base_urlx() ?>assets/images/anytimemover.webp">
             <source src="https://anytimemove.com/wp-content/uploads/2016/05/shutterstock_v4827407.mov" type="video/mp4">
         </video> -->
