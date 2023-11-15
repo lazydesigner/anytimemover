@@ -82,3 +82,8 @@
 -moz-box-shadow: 0px 300px 81px -42px grey inset;
 }
 .hero-of-services h1{padding: 0;margin: 0;font-size: 3rem;width: 50%;text-align: center;font-weight: 900;color: white;}
+@media screen and (max-width:500px) {
+    .hero-of-services h1{
+        width: 100%;
+    }
+}
