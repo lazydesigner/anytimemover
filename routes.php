@@ -10,11 +10,11 @@ function base_urlx(){
     if($subdirectory){
         $baseUrl = $protocol . $domain. $subdirectory;
         // $baseUrl = $protocol . $domain . $subdirectory;
-        return $baseUrl.'/';
+        return $baseUrl;
     }else{
         $baseUrl = $protocol . $domain;
         // $baseUrl = $protocol . $domain . $subdirectory;
-        return $baseUrl.'/';
+        return $baseUrl;
     }
 
 }
