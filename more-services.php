@@ -25,6 +25,7 @@
 @media screen and (max-width:500px) {
     .hero-of-services h1{
         width: 100%;
+        font-size:2rem
     }
 }
     </style>
