@@ -240,9 +240,11 @@
     <?php include './footer.php'; ?>
     <script>
         document.getElementById('close-the-nav').addEventListener('click',()=>{
+            document.getElementById('close-the-nav').style.display = 'none';
             document.getElementById('flex2').style.transform = 'scale(0)'
         })
         document.getElementById('three-line-menu').addEventListener('click',()=>{
+            document.getElementById('close-the-nav').style.display = 'block';
             document.getElementById('flex2').style.transform = 'scale(1)'
         })
     </script>
