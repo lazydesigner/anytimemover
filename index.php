@@ -6,6 +6,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preload" as="image" href="<?=base_urlx() ?>assets/images/anytimemover.webp">
+    <link rel="preload"  href="<?=base_urlx() ?>assets/css/index.css"  as="style" >
+    <link rel="preload"  href="<?=base_urlx() ?>assets/css/footer.css" as="style"  >
+    <link rel="preload"  href="<?=base_urlx() ?>assets/css/navbar.css" as="style"  >
     <title>Residential & Corporate Moving | Long Distance & Car Movers | Anytime Move</title>
 
     <meta name="title" content="Residential & Corporate Moving | Long Distance & Car Movers | Anytime Move">
