@@ -20,19 +20,19 @@
     <section class="section-service">
         <div class="section-service-row">
             <div class="section-service-col">
-                <div class="list-of-service-img"><img src="<?=base_url() ?>assets/images/South-Florida-Movers1-e1463070625660.png" alt=""></div>
+                <div class="list-of-service-img"><img src="<?=base_urlx() ?>assets/images/South-Florida-Movers1-e1463070625660.png" alt=""></div>
                 <h2>RESIDENTIAL MOVES</h2>
                 <p class="section-service-col-p">We understand changing homes can be stressful, that’s why at <span style="color: #3366ff">Anytime Movers</span> we strive to provide you with the most stress-free, no hassle moving experience in the Tri-County area. All of our men know the <span style="color: #3366ff">importance of personal items</span>. While being efficient, we always handle your possessions with the utmost care. We handle small condos to large homes and everything in between. We are ready and willing to tailor our services to your needs Anytime.</p>
             </div>
             <div class="section-service-col">
-                <div class="list-of-service-img"><img src="<?=base_url() ?>assets/images/Tri-country-movers.png" alt=""></div>
+                <div class="list-of-service-img"><img src="<?=base_urlx() ?>assets/images/Tri-country-movers.png" alt=""></div>
                 <h2>CORPORATE RELOCATION</h2>
                 <p class="section-service-col-p">When it come to commercial moves, no job is too big or too small. With all the high rise condos and apartments in South Florida adding the service of <span style="color: #3366ff">corporate relocation</span> was easy. Years later, we are experts at maneuvering through tight hallways and have no problem working around the off hour times buildings assign to movers. Whether you’re moving down the hall, down a floor, or down the road <span style="color: #3366ff">we can assist</span> with all your corporate relocation needs. </p>
             </div>
         </div>
         <div class="section-service-row">
             <div class="section-service-col">
-                <div class="list-of-service-img"><img src="<?=base_url() ?>assets/images/Best-Movers-South-Florida.png" alt=""></div>
+                <div class="list-of-service-img"><img src="<?=base_urlx() ?>assets/images/Best-Movers-South-Florida.png" alt=""></div>
                 <h2>LONG DISTANCE MOVES</h2>
                 <p class="section-service-col-p">We handle long distance moves with the same <span style="color: #3366ff">dedication and care</span> as our local moves, but they do require a bit more planning and coordination. We understand that no two long distance moves are the same and strive to accommodate all the in’s and out’s of your specific move. We work closely with you to <span style="color: #3366ff">provide maximum transparency</span> so their are no hidden fees or surprises along the way. </p>
             </div>
