@@ -131,19 +131,19 @@ if(mysqli_num_rows($result) > 0){
         <div class="services-hero-section-bellow">
             <div class="services-hero-section-bellow-box">
                 <div class="services-hero-icon"><img src="./assets/images/quick.png" width="100%" height="100%" style="object-fit: cover;" alt=""></div>
-                <h3>Quick Pickup</h3>
+                <h2>Quick Pickup</h2>
             </div>
             <div class="services-hero-section-bellow-box">
                 <div class="services-hero-icon"><img src="./assets/images/Express-Auto-Service.webp" width="100%" height="100%" style="object-fit: cover;" alt=""></div>
-                <h3>Fast Delivery</h3>
+                <h2>Fast Delivery</h2>
             </div>
             <div class="services-hero-section-bellow-box">
                 <div class="services-hero-icon"><img src="./assets/images/review.png" width="100%" height="100%" style="object-fit: cover;" alt=""></div>
-                <h3>Best Ratings</h3>
+                <h2>Best Ratings</h2>
             </div>
             <div class="services-hero-section-bellow-box">
                 <div class="services-hero-icon"><img src="./assets/images/peace.svg" width="100%" height="100%" style="object-fit: cover;" alt=""></div>
-                <h3>Peace Of Mind</h3>
+                <h2>Peace Of Mind</h2>
             </div>
 
         </div>
@@ -388,7 +388,7 @@ if(mysqli_num_rows($result) > 0){
             <p class="form-container-p">Get Quotes</p>
             <form action="" id="final-submit-form" method="POST">
                 <div class="form-group">
-                    <input type="text" name="email" id="from" placeholder="Enter Email">
+                    <input type="text" name="email" id="email" placeholder="Enter Email">
                 </div>
                 <div class="form-group">
                 <input type="text" placeholder="Enter Your Phone" name="phone_number" id="phone" min="10" onkeyup="formatPhoneNumber(this)" max="10" >
