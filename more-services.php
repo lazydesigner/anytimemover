@@ -4,6 +4,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel=preload as=image href="<?=base_urlx() ?>assets/images/87210796.webp">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>More Services - Anytime Movers</title>
 <link rel=preload href=https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css as=style onload='this.onload=null,this.rel="stylesheet"' async>
