@@ -302,7 +302,7 @@ if(mysqli_num_rows($result) > 0){
             <?=$row['content'] ?>
 
         </div>
-        <div style="background-color: lightblue;">
+        <div style="background-color: lightblue;padding:1%">
         <div class="why-choose-us">
             <div class="why-choose-heading">
                 <h2>WHY US</h2>
