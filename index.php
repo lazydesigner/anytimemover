@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+    <link rel="preload" as="image" href="<?=base_urlx() ?>assets/images/anytimemover.webp">
     <title>Residential & Corporate Moving | Long Distance & Car Movers | Anytime Move</title>
 
     <meta name="title" content="Residential & Corporate Moving | Long Distance & Car Movers | Anytime Move">
