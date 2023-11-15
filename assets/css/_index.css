@@ -353,6 +353,8 @@ position: absolute;
     height: 100%;
     object-fit: cover;
 }
+
+._index_body{width: 1200px;margin:auto;}
 /* Content Css */
 
 
