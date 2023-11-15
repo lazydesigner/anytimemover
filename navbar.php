@@ -4,7 +4,7 @@
         <div id="three-line-menu" class="three-line-menu"><i class="ri-menu-3-line"></i></div>
         <ul class="flex2" id="flex2">
             <div class="close-the-nav" id="close-the-nav">X</div>
-            <li><a href="http://localhost/anytimemove/#service-section">OUR SERVICES</a></li>
+            <li><a href="<?=base_urlx() ?>#service-section">OUR SERVICES</a></li>
             <li><a href="about-us">ABOUT US</a></li>
             <li><a href="request-a-free-quote">REQUEST A FREE QUOTE</a></li>
             <li><a href="blogs">BLOGS</a></li>
