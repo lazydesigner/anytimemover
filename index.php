@@ -189,7 +189,7 @@
                     <input type="text" placeholder="Email*">
                     <input type="text" placeholder="Subject*">
                     <textarea name="" id="" cols="30" rows="7" placeholder="Your Message"></textarea>
-                    <div><label style="opacity:0;">.</label><input type="checkbox" name="terms" id="terms"><span style="color:lightblue;">I agree with this Site's Privacy Policy</span></div>
+                    <div><label style="opacity:0;">.<input type="checkbox" name="terms" id="terms"></label><span style="color:lightblue;">I agree with this Site's Privacy Policy</span></div>
                     <input type="submit" value="Send">
                 </form>
             </div>
