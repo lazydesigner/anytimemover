@@ -26,7 +26,7 @@ if(mysqli_num_rows($result) > 0){
 <link rel=preload href=https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css as=style onload='this.onload=null,this.rel="stylesheet"' async>
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/footer.css">
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/navbar.css">
-    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/_index.css">
+    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/_index.css?v=1">
 
     <style>
         .side-form-quotes{
@@ -80,12 +80,13 @@ if(mysqli_num_rows($result) > 0){
             top: 260px;
             transform: scaleY(0);
         }
+        ._index_body{width: 1200px;margin:auto;}
     </style>
 
     
 </head>
 
-<body style="width: 1200px;margin:auto;">
+<body class="_index_body">
     <div style="position:relative; width:100%;height:70px"><?php include './navbar.php'; ?></div>
     <section class="service-hero-section">
         <img src="./assets/images/open Air Transport.webp" width="100%" height="100%" alt="">
