@@ -2,7 +2,7 @@
     flex: 0 1 300px;
     width: auto;
     height: auto;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
     justify-content: center;
     background-color: transparent;
@@ -13,12 +13,17 @@
 }
 .more-services-container a{text-decoration: none;color: black;}
 .more-services-img{
+    /* position: absolute; */
+    top: 0;
     /* clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%); */
     width: 300px;
     height: 150px;
     background-color: blue;
 }
 .more-services-text{
+    
+    /* position: absolute; */
+    top: 150px;
     /* clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%); */
     width: 300px;
     height: auto;
@@ -28,6 +33,10 @@
 }
 .more-services-text h2{
     padding: 0;margin: 0;
+}
+.more-services-text p{
+    font-size: 1.15rem;
+    line-height: 24px;
 }
 .more-services-img img{
     width: 100%;
