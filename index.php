@@ -32,9 +32,9 @@
     <meta property="article:tag" content="auto moving companies" />
 
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" as="style" onload="this.onload=null;this.rel='stylesheet'" async>
-    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/index.css">
-    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/footer.css">
-    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/navbar.css">
+    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/index.css" async>
+    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/footer.css" async>
+    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/navbar.css" async>
 </head>
 
 <body>
