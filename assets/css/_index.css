@@ -372,6 +372,7 @@ position: absolute;
     .services-hero-section-bellow-box{height: auto;}
     .services-hero-section-bellow{flex-wrap: wrap;height: auto;}
     ._index_navbar{height: 80px;}
+    .service-hero-p{width: 100%;}
 }
 
 
