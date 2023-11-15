@@ -10,11 +10,14 @@
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/footer.css">
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/navbar.css">
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/more-services.css">
+
 </head>
 
 <body>
-    <div style="position:relative; width:100%;height:70px"><?php include './navbar.php'; ?></div>
-
+    <div style="position:relative; width:100%;height:70px;background-color: grey;"><?php include './navbar.php'; ?></div>
+    <div class="hero-of-services">
+        <h1>List Of Car Transporation Services</h1>
+    </div>
     <section>
         <div class="more-services-container">
             <a href="https://anytimemove.com/open-auto-transport-service" class="more-services-box">
