@@ -26,7 +26,7 @@ if(mysqli_num_rows($result) > 0){
 <link rel=preload href=https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css as=style onload='this.onload=null,this.rel="stylesheet"' async>
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/footer.css">
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/navbar.css">
-    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/_index.css?v=2">
+    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/_index.css?v=3">
 
     <style>
         .side-form-quotes{
@@ -86,7 +86,7 @@ if(mysqli_num_rows($result) > 0){
 </head>
 
 <body class="_index_body">
-    <div style="position:relative; width:100%;height:70px"><?php include './navbar.php'; ?></div>
+    <div class="_index_navbar"><?php include './navbar.php'; ?></div>
     <section class="service-hero-section">
         <img src="./assets/images/open Air Transport.webp" width="100%" height="100%" alt="">
         <div class="service-hero-section-row">
@@ -529,7 +529,6 @@ if(mysqli_num_rows($result) > 0){
 
             window.onscroll = (e)=>{
                height = document.documentElement.scrollTop
-                console.log(height)
                if(height >= 400){
                 document.getElementById('circle-one').style.display = 'grid'
                }else{
