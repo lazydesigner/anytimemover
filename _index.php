@@ -122,11 +122,21 @@ if(mysqli_num_rows($result) > 0){
             <div class="service-hero-section-col">
                 <h1 class="service-hero-h1"><?=$row['h1'] ?></h1>
                 <div>
+                    <?php 
+                    if($result1){
+                        ?>
+                        <div class="service-hero-p">
+                            <?=$row['h1_about'] ?>
+                        </div>
+                        <?php
+                    }else{
+                    ?>
                     <ul class="service-hero-p" style="list-style: none;">
                         <li><span><i class="ri-share-forward-fill"></i></span><?=$row['ponit1'] ?></li>
                         <li><span><i class="ri-share-forward-fill"></i></span><?=$row['ponit2'] ?></li>
                         <li><span><i class="ri-share-forward-fill"></i></span><?=$row['ponit3'] ?></li>
                     </ul>
+                    <?php } ?>
                 </div>
                 <!-- <p class="service-hero-p">inside the flex container take up 30%, 40%, and 30% of the container's width respectively, with equal spacing between them due to justify-content: space-between;. You can adjust the percentage values to match your specific layout requirements.</p> -->
             </div>
