@@ -237,7 +237,7 @@
 
                              <input type="text" id="car-to-img-alt" placeholder="Image alt text">
                          </div> -->
-
+ 
 
                         </div>
 
@@ -248,9 +248,10 @@
                             <p class="input-lable"> Page-h1: </p>
                             <input type="text" name="h1" id="page-h1" value="<?= $service['h1'];?>">
 
-                            <p class="input-lable"> About-1: </p>
-                            <textarea type="text" name="h1_about" id="about-1"
-                                rows="12"><?= $service['h1_about'];?></textarea>
+                            <p class="input-lable"> Top Three Points:</p>
+                            <input type="text" name="point1" id="point1" value="<?= $service['ponit1'];?>"  placeholder="Top Ponit One">
+                            <input type="text" name="point2" id="point2" value="<?= $service['ponit2'];?>" placeholder="Top Ponit Two" style="margin: 2% 0;">
+                            <input type="text" name="point3" id="point2" value="<?= $service['ponit3'];?>" placeholder="Top Ponit Three">
 
                             <p class="input-lable"> Page-h2: </p>
                             <input type="text" name="h2" id="page-h2" value="<?= $service['h2'];?>">
