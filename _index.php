@@ -9,11 +9,13 @@ $result = mysqli_query($con, $query);
 
 if(!$result){
     $query1 = "SELECT * FROM blogs WHERE `slug` = '$slug' ";
-    $result = mysqli_query($con, $query1);
+    $result1 = mysqli_query($con, $query1);
 }
 
 if(mysqli_num_rows($result) > 0){
     $row = mysqli_fetch_assoc($result);
+}elseif(mysqli_num_rows($result1) > 0){
+    $row = mysqli_fetch_assoc($result1);
 }else{
     echo 'Page Not Found';
 }
