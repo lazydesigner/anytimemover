@@ -8,7 +8,7 @@ $query = "SELECT * FROM services WHERE `slug` = '$slug' ";
 $result = mysqli_query($con, $query);
 
 if(!$result){
-    $query1 = "SELECT * FROM services WHERE `slug` = '$slug' ";
+    $query1 = "SELECT * FROM blogs WHERE `slug` = '$slug' ";
     $result = mysqli_query($con, $query1);
 }
 
