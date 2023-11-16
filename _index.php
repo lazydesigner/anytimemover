@@ -86,11 +86,12 @@ if(mysqli_num_rows($result) > 0){
             transform: scaleY(0);
         }
         .multiline-ellipsis {
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 4; /* start showing ellipsis when 3rd line is reached */
-  white-space: pre-wrap; /* let the text wrap preserving spaces */}
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3; /* start showing ellipsis when 3rd line is reached */
+            white-space: pre-wrap; /* let the text wrap preserving spaces */
+        }
     </style>
 
     
