@@ -7,10 +7,8 @@ $slug = $_GET['page_id'];
 $query = "SELECT * FROM services WHERE `slug` = '$slug' ";
 $result = mysqli_query($con, $query);
 
-if(!$result){
-    $query1 = "SELECT * FROM blogs WHERE `slug` = '$slug' ";
-    $result1 = mysqli_query($con, $query1);
-}
+$query1 = "SELECT * FROM blogs WHERE `slug` = '$slug' ";
+$result1 = mysqli_query($con, $query1);
 
 if(mysqli_num_rows($result) > 0){
     $row = mysqli_fetch_assoc($result);
