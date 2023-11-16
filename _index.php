@@ -127,7 +127,7 @@ if(mysqli_num_rows($result) > 0){
             </div>
         </div>
     </section>
-    <section style="background-color:#E9E9E9;padding-top:1%;">
+    <section style="background-color:#f7f7f7;padding-top:1%;">
         <div class="services-hero-section-bellow">
             <div class="services-hero-section-bellow-box">
                 <div class="services-hero-icon"><img src="./assets/images/quick.png" width="100%" height="100%" style="object-fit: cover;" alt=""></div>
