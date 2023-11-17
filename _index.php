@@ -28,7 +28,8 @@ if(mysqli_num_rows($result) > 0){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?=$row['title'] ?></title>
     <?=$row['meta'] ?>
-<link rel=preload href=https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css as=style onload='this.onload=null,this.rel="stylesheet"' async>
+    <meta name="google-site-verification" content="hD9r2-2bnGslcHbfsdFhf3xbpYGfWY0Mhr-8WERfEF4" />
+    <link rel=preload href=https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css as=style onload='this.onload=null,this.rel="stylesheet"' async>
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/footer.css">
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/navbar.css">
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/_index.css?v=7">

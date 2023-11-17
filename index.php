@@ -19,6 +19,7 @@
 <meta name=robots content=index>
 <meta name=keywords content="Corporate Relocation Services, Employee Relocation Services,Corporate moving service, Corporate relocation movers, Residential moving company, Residential moving services, Residential Movers, Long distance residential movers">
 <meta property=article:tag content="Corporate Relocation Services">
+<meta name="google-site-verification" content="hD9r2-2bnGslcHbfsdFhf3xbpYGfWY0Mhr-8WERfEF4" />
 <meta property=article:tag content="Employee Relocation Services">
 <meta property=article:tag content="Corporate moving service">
 <meta property=article:tag content="Corporate relocation movers">

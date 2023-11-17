@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/footer.css">
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/navbar.css">
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/services-page.css">
+    <meta name="google-site-verification" content="hD9r2-2bnGslcHbfsdFhf3xbpYGfWY0Mhr-8WERfEF4" />
 </head>
 
 <body>
