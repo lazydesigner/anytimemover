@@ -366,7 +366,14 @@ if(mysqli_num_rows($result) > 0){
             </div>
         </div>
         </div>
-        <div class="service-faq">
+
+        <?php 
+                    if($result1){
+                        ?>
+                        <?php
+                    }else{
+                    ?>
+                    <div class="service-faq">
             <div class="services-heading">
                 <h2>FAQ</h2>
                 <div class="design">
@@ -410,6 +417,9 @@ if(mysqli_num_rows($result) > 0){
                 </div>
             </div>
         </div>
+                    <?php } ?>
+
+        
     </section>
 
     <!-- POPUP FORM -->
