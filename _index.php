@@ -13,6 +13,7 @@ $result1 = mysqli_query($con, $query1);
 if(mysqli_num_rows($result) > 0){
     $row = mysqli_fetch_assoc($result);
 }elseif(mysqli_num_rows($result1) > 0){
+    $hide_and_seek = true;
     $row = mysqli_fetch_assoc($result1);
 }else{
     echo 'Page Not Found';
@@ -138,7 +139,7 @@ if(mysqli_num_rows($result) > 0){
                 <h1 class="service-hero-h1"><?=$row['h1'] ?></h1>
                 <div>
                     <?php 
-                    if($result1){
+                    if($hide_and_seek){
                         ?>
                         <div class="service-hero-p multiline-ellipsis">
                             <?=$row['h1_about'] ?>
@@ -368,7 +369,7 @@ if(mysqli_num_rows($result) > 0){
         </div>
 
         <?php 
-                    if($result1){
+                    if($hide_and_seek){
                         ?>
                         <?php
                     }else{
