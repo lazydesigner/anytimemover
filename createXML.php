@@ -29,7 +29,7 @@ $xml .= '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . PHP_EOL
 $url = htmlspecialchars('https://anytimemove.com/');
 $xml .= "\t<url>\n";
 $xml .= "\t\t<loc>$url</loc>\n";
-$xml .= "\t\t<lastmod>"."2023-11-9T13:23:31+05:30"."</lastmod>\n";
+$xml .= "\t\t<lastmod>"."2023-11-09T13:23:31+05:30"."</lastmod>\n";
 $xml .= "\t\t<changefreq>weekly</changefreq>\n";
 $xml .= "\t\t<priority>1.00</priority>\n";
 $xml .= "\t</url>\n";
