@@ -231,16 +231,7 @@
                     </div>
                 </div>
             </div>
-<div class=recent-blogs-col>
-<div class=blogs>
-<div class=blogs-img><img src="<?=base_urlx() ?>assets/images/87210796.webp" alt=""></div>
-<div style="padding:1% 2%">
-<a href=#><h3>Lorem ipsum dolor sit amet.</h3></a>
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non dolor fugit inventore sunt nemo quae voluptas ex fuga veritatis necessitatibus!</p>
-</div>
-</div>
-</div>
-</div>
+
 </section>
 <?php include './footer.php'; ?>
 <script>document.getElementById("close-the-nav").addEventListener("click",(()=>{document.getElementById("close-the-nav").style.display="none",document.getElementById("flex2").style.transform="scale(0)"})),document.getElementById("three-line-menu").addEventListener("click",(()=>{document.getElementById("close-the-nav").style.display="block",document.getElementById("flex2").style.transform="scale(1)"}))</script>
