@@ -233,7 +233,7 @@ if(mysqli_num_rows($result) > 0){
                                     </div>
                                     <div class="box-profile" style="background-color: white;"><img src="./assets/images/trustpilot.png" style="object-fit: contain;" width="100%" height="100%" alt=""></div>
                                 </div>
-                                <p style="text-align: start;font-size:15px;line-height:23px;">I couldn't be happier with the service I received from this car transportation company when I engaged them to move my vintage vehicle. My automobile was handled carefully, and it arrived in the same state as when it left. Throughout the entire process, there was excellent communication, and I valued the assurance that my car was in capable hands. I got all my 4 vehicle moved from them the best ever experience with the car transportation company. Thank You AnyTime Movers. 5 Stars!</p>
+                                <p style="text-align: start;font-size:15px;line-height:23px;">I couldn't be happier with the service I received from this car transportation company when I engaged them to move my vintage vehicle. My automobile was handled carefully, and it arrived in the same state as when it left. Throughout the entire process, there was excellent communication, and I valued the assurance that my car was in capable hands.</p>
                             </div>
                         </div>
                     </div>
@@ -276,7 +276,7 @@ if(mysqli_num_rows($result) > 0){
                                     <div class="box-review-profile">
                                         <div class="box-profile"><img src="./assets/images/profile-1.jpeg" width="100%" height="100%" alt=""></div>
                                         <span>
-                                            <h3>Deepak </h3><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+                                            <h3>joe bird </h3><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
                                         </span>
                                     </div>
                                     <div class="box-profile" style="background-color: white;"><img src="./assets/images/trustpilot.png" style="object-fit: contain;" width="100%" height="100%" alt=""></div>
