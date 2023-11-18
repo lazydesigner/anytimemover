@@ -203,7 +203,7 @@ if(mysqli_num_rows($result) > 0){
                                     <div class="box-review-profile">
                                         <div class="box-profile"><img src="./assets/images/profile-2.jpeg" width="100%" height="100%" alt=""></div>
                                         <span>
-                                            <h3>John Logan </h3><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+                                            <h3>Angela Merkle</h3><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
                                         </span>
                                     </div>
                                     <div class="box-profile" style="background-color: white;"><img src="./assets/images/transport-reviews.png" style="object-fit: contain;" width="100%" height="100%" alt=""></div>
@@ -219,7 +219,7 @@ if(mysqli_num_rows($result) > 0){
                                     <div class="box-review-profile">
                                         <div class="box-profile"><img src="./assets/images/profile-4.jpeg" width="100%" height="100%" alt=""></div>
                                         <span>
-                                            <h3>Angela Merkle </h3><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
+                                            <h3>John Logan</h3><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
                                         </span>
                                     </div>
                                     <div class="box-profile" style="background-color: white;"><img src="./assets/images/google.png" style="object-fit: contain;" width="100%" height="100%" alt=""></div>
