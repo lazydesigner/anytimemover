@@ -193,7 +193,7 @@ if(mysqli_num_rows($result) > 0){
                                     </div>
                                     <div class="box-profile" style="background-color: white;"><img src="./assets/images/google.png" style="object-fit: contain;" width="100%" height="100%" alt=""></div>
                                 </div>
-                                <p style="text-align: start;font-size:15px;line-height:23px;" class="multiline-ellipsis2">Their auto shipping services are accurate whether it is home pickup or taking care of my vehicles. I was happy with all their services and their shipping and transport services were better than anyone else.</p>
+                                <p style="text-align: start;font-size:19px;line-height:23px;" class="multiline-ellipsis2">Their auto shipping services are accurate whether it is home pickup or taking care of my vehicles. I was happy with all their services and their shipping and transport services were better than anyone else.</p>
                             </div>
                         </div>
                     </div>
@@ -209,7 +209,7 @@ if(mysqli_num_rows($result) > 0){
                                     </div>
                                     <div class="box-profile" style="background-color: white;"><img src="./assets/images/transport-reviews.png" style="object-fit: contain;" width="100%" height="100%" alt=""></div>
                                 </div>
-                                <p style="text-align: start;font-size:15px;line-height:23px;" class="multiline-ellipsis2">I asked them for car shipping in a trailer to Vegas. I have been using their services for many years and I am never disappointed. The vehicles arrived quickly and safely.</p>
+                                <p style="text-align: start;font-size:19px;line-height:23px;" class="multiline-ellipsis2">I asked them for car shipping in a trailer to Vegas. I have been using their services for many years and I am never disappointed. The vehicles arrived quickly and safely.</p>
                             </div>
                         </div>
                     </div>
@@ -225,7 +225,7 @@ if(mysqli_num_rows($result) > 0){
                                     </div>
                                     <div class="box-profile" style="background-color: white;"><img src="./assets/images/google.png" style="object-fit: contain;" width="100%" height="100%" alt=""></div>
                                 </div>
-                                <p style="text-align: start;font-size:15px;line-height:23px;" class="multiline-ellipsis2">Very accurate and in-time services. Their home pickup was excellent, and auto shippers took care of the vehicle very well. If I had known they were so good, I would have also asked them for car shipping.</p>
+                                <p style="text-align: start;font-size:19px;line-height:23px;" class="multiline-ellipsis2">Very accurate and in-time services. Their home pickup was excellent, and auto shippers took care of the vehicle very well. If I had known they were so good, I would have also asked them for car shipping.</p>
                             </div>
                         </div>
                     </div>
@@ -241,7 +241,7 @@ if(mysqli_num_rows($result) > 0){
                                     </div>
                                     <div class="box-profile" style="background-color: white;"><img src="./assets/images/trustpilot.png" style="object-fit: contain;" width="100%" height="100%" alt=""></div>
                                 </div>
-                                <p style="text-align: start;font-size:15px;line-height:23px;" class="multiline-ellipsis2">I couldn't be happier with the service I received from this car transportation company when I engaged them to move my vintage vehicle. My automobile was handled carefully, and it arrived in the same state as when it left. Throughout the entire process, there was excellent communication, and I valued the assurance that my car was in capable hands.</p>
+                                <p style="text-align: start;font-size:19px;line-height:23px;" class="multiline-ellipsis2">I couldn't be happier with the service I received from this car transportation company when I engaged them to move my vintage vehicle. My automobile was handled carefully, and it arrived in the same state as when it left. Throughout the entire process, there was excellent communication, and I valued the assurance that my car was in capable hands.</p>
                             </div>
                         </div>
                     </div>
@@ -257,7 +257,7 @@ if(mysqli_num_rows($result) > 0){
                                     </div>
                                     <div class="box-profile" style="background-color: white;"><img src="./assets/images/bbb.png" style="object-fit: contain;" width="100%" height="100%" alt=""></div>
                                 </div>
-                                <p style="text-align: start;font-size:15px;line-height:23px;" class="multiline-ellipsis2">Just book your next car shipment with them they are quick and reliable company to work with as they do not change their prices at the last moment which other car shipping company always does.</p>
+                                <p style="text-align: start;font-size:19px;line-height:23px;" class="multiline-ellipsis2">Just book your next car shipment with them they are quick and reliable company to work with as they do not change their prices at the last moment which other car shipping company always does.</p>
                             </div>
                         </div>
                     </div>
@@ -273,7 +273,7 @@ if(mysqli_num_rows($result) > 0){
                                     </div>
                                     <div class="box-profile" style="background-color: white;"><img src="./assets/images/transport-reviews.png" style="object-fit: contain;" width="100%" height="100%" alt=""></div>
                                 </div>
-                                <p style="text-align: start;font-size:15px;line-height:23px;" class="multiline-ellipsis2">Best Car Transport company out of all the car shipping company. Shipping a car from one state to the other state with Anytime Mover is the best experience of car shipping i ever had as they were quick and easy to respond during the whole shipment process.</p>
+                                <p style="text-align: start;font-size:19px;line-height:23px;" class="multiline-ellipsis2">Best Car Transport company out of all the car shipping company. Shipping a car from one state to the other state with Anytime Mover is the best experience of car shipping i ever had as they were quick and easy to respond during the whole shipment process.</p>
                             </div>
                         </div>
                     </div>
@@ -289,7 +289,7 @@ if(mysqli_num_rows($result) > 0){
                                     </div>
                                     <div class="box-profile" style="background-color: white;"><img src="./assets/images/trustpilot.png" style="object-fit: contain;" width="100%" height="100%" alt=""></div>
                                 </div>
-                                <p style="text-align: start;font-size:15px;line-height:23px;" class="multiline-ellipsis2">Best Auto transport company out of all the car shipping companies in my knowledge. They have transported my car to California and once to Texas and i am the satisfied customer of Anytime Mover. The time my vehicle was getting Shipped by Anytime Mover</p>
+                                <p style="text-align: start;font-size:19px;line-height:23px;" class="multiline-ellipsis2">Best Auto transport company out of all the car shipping companies in my knowledge. They have transported my car to California and once to Texas and i am the satisfied customer of Anytime Mover. The time my vehicle was getting Shipped by Anytime Mover</p>
                             </div>
                         </div>
                     </div>
@@ -305,7 +305,7 @@ if(mysqli_num_rows($result) > 0){
                                     </div>
                                     <div class="box-profile" style="background-color: white;"><img src="./assets/images/google.png" style="object-fit: contain;" width="100%" height="100%" alt=""></div>
                                 </div>
-                                <p style="text-align: start;font-size:15px;line-height:23px;" class="multiline-ellipsis2">Shipping A vehicle from Texas to California was the best experience with Anytime Mover. Auto Transportation company usually charge high at the last minute whereas the timing and no increase in price was the best i can expect from any Anytime Mover.</p>
+                                <p style="text-align: start;font-size:19px;line-height:23px;" class="multiline-ellipsis2">Shipping A vehicle from Texas to California was the best experience with Anytime Mover. Auto Transportation company usually charge high at the last minute whereas the timing and no increase in price was the best i can expect from any Anytime Mover.</p>
                             </div>
                         </div>
                     </div>
@@ -321,7 +321,7 @@ if(mysqli_num_rows($result) > 0){
                                     </div>
                                     <div class="box-profile" style="background-color: white;"><img src="./assets/images/bbb.png" style="object-fit: contain;"  width="100%" height="100%" alt=""></div>
                                 </div>
-                                <p style="text-align: start;font-size:15px;line-height:23px;" class="multiline-ellipsis2">Best vehicle shipping company. I have used them quiet a few times and they were proved to be the best one one as always.  Anytime Mover is one of the best car transportation in state to state shipping for USA</p>
+                                <p style="text-align: start;font-size:19px;line-height:23px;" class="multiline-ellipsis2">Best vehicle shipping company. I have used them quiet a few times and they were proved to be the best one one as always.  Anytime Mover is one of the best car transportation in state to state shipping for USA</p>
                             </div>
                         </div>
                     </div>
