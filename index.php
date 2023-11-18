@@ -214,9 +214,20 @@
                     <div class="blogs-img"><img src="./assets/images/17899070.webp" alt=""></div>
                     <div style="padding:1% 2%;">
                         <a href="https://anytimemove.com/how-to-work-our-professional-movers">
-                            <h4>How to Work Our Professional Movers? | Anytime Move</h4>
+                            <h4>How to Work Our Professional Movers?</h4>
                         </a>
                         <p>We have a team of professional movers with extensive years under their belt, with reviews from previous customers who recommend our moving services and...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-blogs-col">
+                <div class="blogs">
+                    <div class="blogs-img"><img src="./assets/images/17899070.webp" alt=""></div>
+                    <div style="padding:1% 2%;">
+                        <a href="https://anytimemove.com/why-is-our-long-distance-moving-company-better-for-you">
+                            <h4>Why is Our Long-Distance Moving Company Better for You?</h4>
+                        </a>
+                        <p>Any time movers simplify long-distance moving. As a leader in the long-distance moving industry, we strive to integrate the latest technology and sophisticated...</p>
                     </div>
                 </div>
             </div>
