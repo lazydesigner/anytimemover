@@ -59,7 +59,7 @@
 <h1>DEDICATED . EFFICIENT . RELIABLE </h1>
 <p>Anytime Movers is built on providing the most value to our customers. We want to be the most dedicated, efficient, and reliable moving company you have ever worked with.</p>
 <div class=hero-section-button>
-<a href="<?=base_urlx() ?>"><button class=btn>People are Talking</button></a>
+<a href="#review-section"><button class=btn>People are Talking</button></a>
 <a href="<?=base_urlx() ?>"><button class=btn2>Get A FREE Quote</button></a>
 </div>
 </div>
@@ -137,7 +137,7 @@
 </section>
 <section class=why-section>
 </section>
-<section class=review-section>
+<section class=review-section id=review-section>
 <h2>WHAT OUR CUSTOMERS ARE SAYING</h2>
 <p>Real words from real customers!</p>
 <div class=design>
