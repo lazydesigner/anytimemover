@@ -185,7 +185,7 @@ if(mysqli_num_rows($result) > 0){
                             <div class="box-slide-review">
                                 <div style="display: flex;align-items: center;justify-content: space-between;">
                                     <div class="box-review-profile">
-                                        <div class="box-profile"><img src="./assets/images/profile-2.jpeg" width="100%" height="100%" alt=""></div>
+                                        <div class="box-profile"><img src="./assets/images/profile-3.jpeg" width="100%" height="100%" alt=""></div>
                                         <span>
                                             <h3>Mark Hill </h3><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
                                         </span>
@@ -217,7 +217,7 @@ if(mysqli_num_rows($result) > 0){
                             <div class="box-slide-review">
                                 <div style="display: flex;align-items: center;justify-content: space-between;">
                                     <div class="box-review-profile">
-                                        <div class="box-profile"><img src="./assets/images/profile-2.jpeg" width="100%" height="100%" alt=""></div>
+                                        <div class="box-profile"><img src="./assets/images/profile-4.jpeg" width="100%" height="100%" alt=""></div>
                                         <span>
                                             <h3>Angela Merkle </h3><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
                                         </span>
@@ -233,7 +233,7 @@ if(mysqli_num_rows($result) > 0){
                             <div class="box-slide-review">
                                 <div style="display: flex;align-items: center;justify-content: space-between;">
                                     <div class="box-review-profile">
-                                        <div class="box-profile"><img src="./assets/images/profile-2.jpeg" width="100%" height="100%" alt=""></div>
+                                        <div class="box-profile"><img src="./assets/images/profile-5.jpeg" width="100%" height="100%" alt=""></div>
                                         <span>
                                             <h3>Barbara Allison </h3><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
                                         </span>
@@ -249,7 +249,7 @@ if(mysqli_num_rows($result) > 0){
                             <div class="box-slide-review">
                                 <div style="display: flex;align-items: center;justify-content: space-between;">
                                     <div class="box-review-profile">
-                                        <div class="box-profile"><img src="./assets/images/profile-2.jpeg" width="100%" height="100%" alt=""></div>
+                                        <div class="box-profile"><img src="./assets/images/profile-6.jpeg" width="100%" height="100%" alt=""></div>
                                         <span>
                                             <h3>Beth Sever </h3><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
                                         </span>
@@ -265,7 +265,7 @@ if(mysqli_num_rows($result) > 0){
                             <div class="box-slide-review">
                                 <div style="display: flex;align-items: center;justify-content: space-between;">
                                     <div class="box-review-profile">
-                                        <div class="box-profile"><img src="./assets/images/profile-1.jpeg" width="100%" height="100%" alt=""></div>
+                                        <div class="box-profile"><img src="./assets/images/profile-7.jpeg" width="100%" height="100%" alt=""></div>
                                         <span>
                                             <h3>Jerry Merten </h3><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
                                         </span>
@@ -297,7 +297,7 @@ if(mysqli_num_rows($result) > 0){
                             <div class="box-slide-review">
                                 <div style="display: flex;align-items: center;justify-content: space-between;">
                                     <div class="box-review-profile">
-                                        <div class="box-profile"><img src="./assets/images/profile-1.jpeg" width="100%" height="100%" alt=""></div>
+                                        <div class="box-profile"><img src="./assets/images/profile-2.jpeg" width="100%" height="100%" alt=""></div>
                                         <span>
                                             <h3>Kevin Carree </h3><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
                                         </span>
@@ -313,7 +313,7 @@ if(mysqli_num_rows($result) > 0){
                             <div class="box-slide-review">
                                 <div style="display: flex;align-items: center;justify-content: space-between;">
                                     <div class="box-review-profile">
-                                        <div class="box-profile"><img src="./assets/images/profile-1.jpeg" width="100%" height="100%" alt=""></div>
+                                        <div class="box-profile"><img src="./assets/images/profile-4.jpeg" width="100%" height="100%" alt=""></div>
                                         <span>
                                             <h3>JandE Essam </h3><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
                                         </span>
