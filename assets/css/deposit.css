@@ -84,6 +84,7 @@
 .blogs{
     width: 300px;
     height: auto;
+    margin: 1%;
     padding: .2%;
     border-radius: 5px;
     border: 1px solid lightgrey;
@@ -113,4 +114,13 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.multiline-ellipsis {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4; /* start showing ellipsis when 3rd line is reached */
+    font-size: 18px                                                                                                                                                                                                                             ;
+    /* white-space: pre-wrap; let the text wrap preserving spaces */
 }

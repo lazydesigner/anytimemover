@@ -65,6 +65,60 @@
 </div>
 </div>
 </div>
+<div class="top-review-row">
+        <div class="top-review-col">
+            <div class="top-review-box">
+                <div class="top-review-detail">
+                    <span>GOOGLE</span><br>
+                    <span class="top-rating-star"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-fill"></i></span><br>
+                    <span style="font-size: small;color:grey;">(5,534 reviews)</span>
+                </div>
+                <div class="top-review-ratings" style="text-align: center;">
+                    <span class="top-rating-font"><strong>4.8</strong></span>
+                    <div class="top-review-img"><img src="./assets/images/google.png" width="100%" height="100%" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="top-review-col">
+            <div class="top-review-box">
+                <div class="top-review-detail">
+                    <span>Transport Reviews</span><br>
+                    <span class="top-rating-star"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-half-fill"></i></span><br>
+                    <span style="font-size: small;color:grey;">(1534 reviews)</span>
+                </div>
+                <div class="top-review-ratings" style="text-align: center;">
+                    <span class="top-rating-font"><strong>4.7</strong></span>
+                    <div class="top-review-img"><img src="./assets/images/transport-reviews.png" width="100%" height="100%" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="top-review-col">
+            <div class="top-review-box">
+                <div class="top-review-detail">
+                    <span>BBB</span><br>
+                    <span class="top-rating-star"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span><br>
+                    <span style="font-size: small;color:grey;">(2534 reviews)</span>
+                </div>
+                <div class="top-review-ratings" style="text-align: center;">
+                    <span class="top-rating-font"><strong>4.9</strong></span>
+                    <div class="top-review-img"><img src="./assets/images/bbb.png" width="100%" height="100%" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="top-review-col">
+            <div class="top-review-box">
+                <div class="top-review-detail">
+                    <span>TRUSTPILOT</span><br>
+                    <span class="top-rating-star"><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i><i class="ri-star-fill"></i></span><br>
+                    <span style="font-size: small;color:grey;">(1634 reviews)</span>
+                </div>
+                <div class="top-review-ratings" style="text-align: center;">
+                    <span class="top-rating-font"><strong>4.7</strong></span>
+                    <div class="top-review-img"><img src="./assets/images/trustpilot.png" width="100%" height="100%" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </div>
 <section class=below-hero-section>
 <div class=below-hero-section-content>
 <p>a little about..</p>
