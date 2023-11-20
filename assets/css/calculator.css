@@ -1,0 +1,114 @@
+.container{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    display: grid;
+    place-items: center;
+}
+.calculator-heading{
+    width: 100%;
+    height: 200px;
+    box-shadow: 0px 180px 81px -42px grey inset;
+    -webkit-box-shadow: 0px 180px 81px -42px grey inset;
+    -moz-box-shadow: 0px 180px 81px -42px grey inset;
+    text-align: center;
+    display: grid;
+    align-items: end;
+}
+h1{
+    font-size: 2.5rem;
+}
+.from-group{
+    margin: 2% 0;
+}
+input{
+    width: 300px;
+    height: 50px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    padding: 1%;
+    outline: 0;
+}
+input:focus{
+    border: 1px solid lightblue;
+}
+button{
+    width: 150px;
+    height: 40px;
+    border: 5px;
+    background-color: dodgerblue;
+    font-size: large;
+    font-weight: bolder;
+    color:white;
+    cursor: pointer;
+}
+
+.calculated_price{
+    display: none;
+}
+.from-group-row{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+.calculated_price2{flex:1;}
+.form-container{
+    width: 55%;
+}
+
+/* Review Section Start */
+.top-review-row{
+    width: 100%;
+    height: auto;
+    padding: .5%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    /* background-color: rgba(20, 20, 120, 0.923); */
+    border-bottom: 1px solid rgba(20, 20, 120, 0.923);
+}
+.top-review-box{
+    width: 250px;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 2%;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-review-img{
+    width: 100px;
+    height: 50px;
+    object-fit: cover;
+    background-color: #1d1d1d;
+}
+.top-rating-star{color: gold;margin : 20px 0;}
+.top-review-img img{width: 100%;height: 100%;object-fit: cover;}
+.top-rating-font{
+    font-size: xx-large;
+    font-weight: 900;
+    color: #36454F;
+}
+select{
+    /* width: 300px; */
+    height: 50px;
+    outline: 0;
+    padding: 1%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.top-review-img2{
+    width: 150px;
+    margin-left: 95%;
+
+}
+.reset{
+    background-color: transparent;
+    border: 2px solid lightgreen;
+    color: black;
+}
+/* Review Section Ends */

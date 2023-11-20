@@ -107,7 +107,7 @@ if(mysqli_num_rows($result) > 0){
 </head>
 
 <body class="_index_body">
-    <div class="_index_navbar"><?php include './navbar.php'; ?></div>
+    <div class="_index_navbar"><?php include './navbar2.php'; ?></div>
     <section class="service-hero-section">
         <img src="./assets/images/open Air Transport.webp" width="100%" height="100%" alt="">
         <div class="service-hero-section-row">
