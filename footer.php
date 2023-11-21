@@ -12,7 +12,7 @@
                 </div>
                 <div class="footer-top-col foo">
                     <p><strong>Did you somehow miss the rest of the Get a FREE quote buttons?  No worries, just click below</strong></p>
-                    <button>Get a Free Quote</button>
+                    <a href="calculator"> <button>Get a Free Quote</button></a>
                 </div>
                 <div class="footer-top-col">
                     <h2><b>FOLLOW US!</b></h2>

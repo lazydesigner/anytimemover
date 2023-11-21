@@ -34,7 +34,7 @@
 </head>
 
 <body>
-    <div style="position:relative; width:100%;height:70px;background-color: grey;"><?php include './navbar.php'; ?></div>
+    <div style="position:relative; width:100%;height:70px;background-color: grey;"><?php include './navbar2.php'; ?></div>
     <div class="hero-of-services">
         <h1>List Of Car Transporation Services</h1>
     </div>
