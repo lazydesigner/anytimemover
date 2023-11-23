@@ -42,6 +42,7 @@
                     <li><a style="color:grey ;" href="<?=base_urlx() ?>about-us">ABOUT US</a></li>
                     <li><a style="color:grey ;" href="<?=base_urlx() ?>request-a-free-quote">REQUEST A FREE QUOTE</a></li>
                     <li><a style="color:grey ;" href="<?=base_urlx() ?>blogs">Blogs</a></li>
+                    <li><a style="color:grey ;" href="<?=base_urlx() ?>faqs">Faqs</a></li>
                 </ul>
             </nav>
             </div>

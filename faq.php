@@ -19,6 +19,7 @@
             text-align: center;
             display: grid;
             align-items: end;
+            /* background-color: green; */
         }
 
         h1 {
