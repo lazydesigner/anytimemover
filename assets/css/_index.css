@@ -332,7 +332,7 @@ position: absolute;
 .content p{
     font-size: 22px;
     line-height: 24px;
-    margin:0 0 0 1%;
+    margin:1% 0 0 1%;
     color: #2d2e2e;
 }
 .content ul{
