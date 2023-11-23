@@ -16,6 +16,7 @@ ReWriteRule ^about-us([/]?)$ about-us.php [NC,L]
 ReWriteRule ^request-a-free-quote([/]?)$ request-a-free-quote.php [NC,L]
 ReWriteRule ^blogs([/]?)$ place-a-deposit.php [NC,L]
 ReWriteRule ^calculator([/]?)$ calculator.php [NC,L]
+ReWriteRule ^faq([/]?)$ faq.php [NC,L]
 RewriteRule ^sitemap\.xml/?$ sitemap.xml
 
 ReWriteRule ^([0-9A-Za-z\-]+)([/]?)([/]?)$ _index.php?page_id=$1 [NC,L]

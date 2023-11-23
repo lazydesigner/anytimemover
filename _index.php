@@ -10,12 +10,12 @@ $result = mysqli_query($con, $query);
 $query1 = "SELECT * FROM blogs WHERE `slug` = '$slug' ";
 $result1 = mysqli_query($con, $query1);
 
-if(mysqli_num_rows($result) > 0){
+if (mysqli_num_rows($result) > 0) {
     $row = mysqli_fetch_assoc($result);
-}elseif(mysqli_num_rows($result1) > 0){
+} elseif (mysqli_num_rows($result1) > 0) {
     $hide_and_seek = true;
     $row = mysqli_fetch_assoc($result1);
-}else{
+} else {
     echo 'Page Not Found';
 }
 
@@ -27,23 +27,24 @@ if(mysqli_num_rows($result) > 0){
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?=$row['title'] ?></title>
-    <?=$row['meta'] ?>
+    <title><?= $row['title'] ?></title>
+    <?= $row['meta'] ?>
     <meta name="google-site-verification" content="hD9r2-2bnGslcHbfsdFhf3xbpYGfWY0Mhr-8WERfEF4" />
     <link rel=preload href=https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css as=style onload='this.onload=null,this.rel="stylesheet"' async>
-    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/footer.css">
-    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/navbar.css">
-    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/_index.css?v=9">
+    <link rel="stylesheet" href="<?= base_urlx() ?>assets/css/footer.css">
+    <link rel="stylesheet" href="<?= base_urlx() ?>assets/css/navbar.css">
+    <link rel="stylesheet" href="<?= base_urlx() ?>assets/css/_index.css?v=9">
 
     <style>
-        .side-form-quotes{
+        .side-form-quotes {
             width: 125px;
             position: fixed;
             top: 30%;
             left: .5%;
             height: auto;
         }
-        .side-form-circle{
+
+        .side-form-circle {
             width: 100px;
             height: 100px;
             border-radius: 50%;
@@ -55,61 +56,74 @@ if(mysqli_num_rows($result) > 0){
             text-align: center;
             position: relative;
         }
-        .circle-one, .circle-two, .circle-three{
+
+        .circle-one,
+        .circle-two,
+        .circle-three {
             position: absolute;
             left: 10%;
             display: none;
         }
-        .circle-one{
+
+        .circle-one {
             top: 10px;
         }
-        .circle-two{
+
+        .circle-two {
             top: 160px;
         }
-        .circle-three{
+
+        .circle-three {
             top: 310px;
         }
-        .side-form-line{
+
+        .side-form-line {
             width: 10px;
             height: 50px;
             background-color: red;
             transition: 1s;
             margin: auto;
-            transform-origin:top;
+            transform-origin: top;
             position: absolute;
             left: 45%;
         }
-        .line-one{
+
+        .line-one {
             top: 110px;
             transform: scaleY(0);
         }
-        .line-two{
+
+        .line-two {
             top: 260px;
             transform: scaleY(0);
         }
+
         .multiline-ellipsis {
             overflow: hidden;
             display: -webkit-box;
             -webkit-box-orient: vertical;
-            -webkit-line-clamp: 4; /* start showing ellipsis when 3rd line is reached */
+            -webkit-line-clamp: 4;
+            /* start showing ellipsis when 3rd line is reached */
             /* white-space: pre-wrap; let the text wrap preserving spaces */
         }
+
         .multiline-ellipsis2 {
             overflow: hidden;
             display: -webkit-box;
             -webkit-box-orient: vertical;
-            -webkit-line-clamp: 6; /* start showing ellipsis when 3rd line is reached */
+            -webkit-line-clamp: 6;
+            /* start showing ellipsis when 3rd line is reached */
             /* white-space: pre-wrap; let the text wrap preserving spaces */
         }
     </style>
 
-    
+
 </head>
 
 <body class="_index_body">
     <div class="_index_navbar"><?php include './navbar2.php'; ?></div>
     <section class="service-hero-section">
-        <img src="./assets/images/open Air Transport.webp" width="100%" height="100%" alt="<?=$row['h1'] ?>">
+        <img src="./assets/images/open Air Transport.webp" width="100%" height="100%" alt="<?= $row['h1'] ?>">
         <div class="service-hero-section-row">
             <div class="service-hero-section-col">
                 <div class="form-container">
@@ -136,22 +150,22 @@ if(mysqli_num_rows($result) > 0){
                 </div>
             </div>
             <div class="service-hero-section-col">
-                <h1 class="service-hero-h1"><?=$row['h1'] ?></h1>
+                <h1 class="service-hero-h1"><?= $row['h1'] ?></h1>
                 <div>
-                    <?php 
-                    if($hide_and_seek){
-                        ?>
-                        <div class="service-hero-p multiline-ellipsis">
-                            <?=$row['h1_about'] ?>
-                        </div>
-                        <?php
-                    }else{
+                    <?php
+                    if ($hide_and_seek) {
                     ?>
-                    <ul class="service-hero-p" style="list-style: none;">
-                        <li><span><i class="ri-share-forward-fill"></i></span><?=$row['ponit1'] ?></li>
-                        <li><span><i class="ri-share-forward-fill"></i></span><?=$row['ponit2'] ?></li>
-                        <li><span><i class="ri-share-forward-fill"></i></span><?=$row['ponit3'] ?></li>
-                    </ul>
+                        <div class="service-hero-p multiline-ellipsis">
+                            <?= $row['h1_about'] ?>
+                        </div>
+                    <?php
+                    } else {
+                    ?>
+                        <ul class="service-hero-p" style="list-style: none;">
+                            <li><span><i class="ri-share-forward-fill"></i></span><?= $row['ponit1'] ?></li>
+                            <li><span><i class="ri-share-forward-fill"></i></span><?= $row['ponit2'] ?></li>
+                            <li><span><i class="ri-share-forward-fill"></i></span><?= $row['ponit3'] ?></li>
+                        </ul>
                     <?php } ?>
                 </div>
                 <!-- <p class="service-hero-p">inside the flex container take up 30%, 40%, and 30% of the container's width respectively, with equal spacing between them due to justify-content: space-between;. You can adjust the percentage values to match your specific layout requirements.</p> -->
@@ -319,9 +333,9 @@ if(mysqli_num_rows($result) > 0){
                                             <h3>JandE Essam </h3><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i><i class="ri-star-s-fill"></i>
                                         </span>
                                     </div>
-                                    <div class="box-profile" style="background-color: white;"><img src="./assets/images/bbb.png" style="object-fit: contain;"  width="100%" height="100%" alt=""></div>
+                                    <div class="box-profile" style="background-color: white;"><img src="./assets/images/bbb.png" style="object-fit: contain;" width="100%" height="100%" alt=""></div>
                                 </div>
-                                <p style="text-align: start;font-size:19px;line-height:23px;" class="multiline-ellipsis2">Best vehicle shipping company. I have used them quiet a few times and they were proved to be the best one one as always.  Anytime Mover is one of the best car transportation in state to state shipping for USA</p>
+                                <p style="text-align: start;font-size:19px;line-height:23px;" class="multiline-ellipsis2">Best vehicle shipping company. I have used them quiet a few times and they were proved to be the best one one as always. Anytime Mover is one of the best car transportation in state to state shipping for USA</p>
                             </div>
                         </div>
                     </div>
@@ -330,97 +344,124 @@ if(mysqli_num_rows($result) > 0){
             </div>
         </div>
         <div class="content">
-            <?=$row['content'] ?>
+            <?= $row['content'] ?>
 
         </div>
         <div style="background-color: lightblue;padding:.5%; margin-top:3%;">
-        <div class="why-choose-us">
-            <div class="why-choose-heading">
-                <h2>WHY US</h2>
-                <div class="design">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line1"></div>
+            <div class="why-choose-us">
+                <div class="why-choose-heading">
+                    <h2>WHY US</h2>
+                    <div class="design">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line1"></div>
+                    </div>
+                </div>
+                <div class="why-choose-us-row">
+                    <div class="why-choose-us-box">
+                        <div class="why-choose-us-icon"><img src="./assets/images/ach.svg" width="100%" height="100%" alt=""></div>
+                        <div class="why-choose-sub-heading">15 Years of Auto Transportation</div>
+                        <p>Being an experience auto transporter in the industry, we understand most of the shipping routes and challenges.</p>
+                    </div>
+                    <div class="why-choose-us-box">
+                        <div class="why-choose-us-icon"><img src="./assets/images/zero.svg" width="100%" height="100%" alt=""></div>
+                        <div class="why-choose-sub-heading">$ Zero Down Payment</div>
+                        <p>We never take any upfront payment to schedule your Auto Transportation.</p>
+                    </div>
+                    <div class="why-choose-us-box">
+                        <div class="why-choose-us-icon"><img src="./assets/images/price.svg" width="100%" height="100%" alt=""></div>
+                        <div class="why-choose-sub-heading">Price Match</div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quae?</p>
+                    </div>
+                    <div class="why-choose-us-box">
+                        <div class="why-choose-us-icon"><img src="./assets/images/insure.svg" width="100%" height="100%" alt=""></div>
+                        <div class="why-choose-sub-heading">Fully Insured</div>
+                        <p>Our Auto insurance are from the top notch insurance agency making your car shipment 100% insured</p>
+                    </div>
                 </div>
             </div>
-            <div class="why-choose-us-row">
-                <div class="why-choose-us-box">
-                    <div class="why-choose-us-icon"><img src="./assets/images/ach.svg" width="100%" height="100%" alt=""></div>
-                    <div class="why-choose-sub-heading">15 Years of Auto Transportation</div>
-                    <p>Being an experience auto transporter in the industry, we understand most of the shipping routes and challenges.</p>
-                </div>
-                <div class="why-choose-us-box">
-                    <div class="why-choose-us-icon"><img src="./assets/images/zero.svg" width="100%" height="100%" alt=""></div>
-                    <div class="why-choose-sub-heading">$ Zero Down Payment</div>
-                    <p>We never take any upfront payment to schedule your Auto Transportation.</p>
-                </div>
-                <div class="why-choose-us-box">
-                    <div class="why-choose-us-icon"><img src="./assets/images/price.svg" width="100%" height="100%" alt=""></div>
-                    <div class="why-choose-sub-heading">Price Match</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, quae?</p>
-                </div>
-                <div class="why-choose-us-box">
-                    <div class="why-choose-us-icon"><img src="./assets/images/insure.svg" width="100%" height="100%" alt=""></div>
-                    <div class="why-choose-sub-heading">Fully Insured</div>
-                    <p>Our Auto insurance are from the top notch insurance agency making your car shipment 100% insured</p>
-                </div>
-            </div>
-        </div>
         </div>
 
-        <?php 
-                    if($hide_and_seek){
-                        ?>
-                        <?php
-                    }else{
-                    ?>
-                    <div class="service-faq">
-            <div class="services-heading">
-                <h2>FAQ</h2>
-                <div class="design">
-                    <div class="line1" style="background-color: orangered;"></div>
-                    <div class="line2" style="background-color: orangered;"></div>
-                    <div class="line1" style="background-color: orangered;"></div>
-                </div>
-            </div>
-            <div class="service-faq-body">
-                <div class="service-faq-question-body" id="service-faq-question-body">
-                    <div class="service-faq-question">
-                        <p><b>Q </b> What is the name of your company?</p><span>+</span>
+        <?php
+        if ($hide_and_seek) {
+        ?>
+        <?php
+        } else {
+        ?>
+            <div class="service-faq">
+                <div class="services-heading">
+                    <h2>FAQ</h2>
+                    <div class="design">
+                        <div class="line1" style="background-color: orangered;"></div>
+                        <div class="line2" style="background-color: orangered;"></div>
+                        <div class="line1" style="background-color: orangered;"></div>
                     </div>
-                    <p class="service-faq-ans">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur fugit eaque fugiat quis nostrum voluptatibus, consectetur minima veniam molestias eos dicta aspernatur enim, cumque consequatur officia, cum vitae ipsam dolore.
-                    </p>
                 </div>
-                <div class="service-faq-question-body" id="service-faq-question-body">
-                    <div class="service-faq-question">
-                        <p><b>Q </b> What is the name of your company b?</p><span>+</span>
-                    </div>
-                    <p class="service-faq-ans">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur fugit eaque fugiat quis nostrum voluptatibus, consectetur minima veniam molestias eos dicta aspernatur enim, cumque consequatur officia, cum vitae ipsam dolore.
-                    </p>
-                </div>
-                <div class="service-faq-question-body" id="service-faq-question-body">
-                    <div class="service-faq-question">
-                        <p><b>Q </b> What is the name of your company c?</p><span>+</span>
-                    </div>
-                    <p class="service-faq-ans">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur fugit eaque fugiat quis nostrum voluptatibus, consectetur minima veniam molestias eos dicta aspernatur enim, cumque consequatur officia, cum vitae ipsam dolore.
-                    </p>
-                </div>
-                <div class="service-faq-question-body" id="service-faq-question-body">
-                    <div class="service-faq-question">
-                        <p><b>Q </b> What is the name of your company d?</p><span>+</span>
-                    </div>
-                    <p class="service-faq-ans">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur fugit eaque fugiat quis nostrum voluptatibus, consectetur minima veniam molestias eos dicta aspernatur enim, cumque consequatur officia, cum vitae ipsam dolore.
-                    </p>
-                </div>
-            </div>
-        </div>
-                    <?php } ?>
+                <div class="service-faq-body">
+                    <div class="service-faq-question-body" id="service-faq-question-body">
+                        <div class="service-faq-question">
+                            <p><b>Q </b>How car shipping service is beneficial?</p><span>+</span>
+                        </div>
+                        <p class="service-faq-ans">
+                        When relocating, there might be other options than driving long distances. Shipping allows families and business firms to focus on the move and settle in comfortably while their car and other items are safely shipped to their new location, saving time and money.
 
-        
+                        </p>
+                    </div>
+                    <div class="service-faq-question-body" id="service-faq-question-body">
+                        <div class="service-faq-question">
+                            <p><b>Q </b>How safe is it to ship our family car?</p><span>+</span>
+                        </div>
+                        <p class="service-faq-ans">
+                        Mojar Moving companies, including us, prioritise proper vehicle safety by using equipment and following a proper procedure to reduce risk during shipping.
+                        </p>
+                    </div>
+                    <div class="service-faq-question-body" id="service-faq-question-body">
+                        <div class="service-faq-question">
+                            <p><b>Q </b>Can I ship more than one car? </p><span>+</span>
+                        </div>
+                        <p class="service-faq-ans">
+                        Nowadays having two or more vehicles is quite common and could be challenging when shipping but not with us we provide multi-car shipping services which make car shipping of both cars easy and fast and you can get discount also.
+                        </p>
+                    </div>
+                    <div class="service-faq-question-body" id="service-faq-question-body">
+                        <div class="service-faq-question">
+                            <p><b>Q </b> Is Shipping service available for Non-operational vehicles? </p><span>+</span>
+                        </div>
+                        <p class="service-faq-ans">
+                        You can ship non-operational vehicles with us easily just by contacting our team and providing information about the vehicle and getting quotes and knowledge about the process.
+
+                        </p>
+                    </div>
+                    <div class="service-faq-question-body" id="service-faq-question-body">
+                        <div class="service-faq-question">
+                            <p><b>Q </b>Is there any insurance coverage provided in the car shipping package?</p><span>+</span>
+                        </div>
+                        <p class="service-faq-ans">
+                        Basic insurance coverage comes with a car shipping package, but it is vital to check whether insurance coverage is sufficient for your car.
+                        </p>
+                    </div>
+                    <div class="service-faq-question-body" id="service-faq-question-body">
+                        <div class="service-faq-question">
+                            <p><b>Q </b>What types of cars can be shipped?</p><span>+</span>
+                        </div>
+                        <p class="service-faq-ans">
+                        We have proper specialisation in shipping any type of cars whether it is working or non working, standard or exotic. We can ship any car to any location affordably.
+                        </p>
+                    </div>
+                    <div class="service-faq-question-body" id="service-faq-question-body">
+                        <div class="service-faq-question">
+                            <p><b>Q </b>Can I ship personal items in my car? </p><span>+</span>
+                        </div>
+                        <p class="service-faq-ans">
+                        Personal items weighing around 100 lbs can be shipped inside your car but it is advisable to not ship any valuable or loose items as they can potentially damage your car.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <?php } ?>
+
+
     </section>
 
     <!-- POPUP FORM -->
@@ -432,39 +473,39 @@ if(mysqli_num_rows($result) > 0){
                     <input type="text" name="email" id="email" placeholder="Enter Email">
                 </div>
                 <div class="form-group">
-                <input type="text" placeholder="Enter Your Phone" name="phone_number" id="phone" min="10" onkeyup="formatPhoneNumber(this)" max="10" >
+                    <input type="text" placeholder="Enter Your Phone" name="phone_number" id="phone" min="10" onkeyup="formatPhoneNumber(this)" max="10">
                 </div>
                 <div class="form-group">
-                <input type="date" name='pick_up_date' min="<?php echo date('Y-m-d'); ?>" max="2030-12-31" placeholder="Pickup Date" id="ship_date">
+                    <input type="date" name='pick_up_date' min="<?php echo date('Y-m-d'); ?>" max="2030-12-31" placeholder="Pickup Date" id="ship_date">
                 </div>
                 <div class="form-group">
                     <input type="text" placeholder="Select an option" name="vehicle_size" id="ship_vehicle" readonly>
                 </div>
                 <div class="form-group" style="display:flex;justify-content:space-between;align-items:center;">
-                <button class="form-container-button" name="previous">Previous</button>
-                <button class="form-container-button" name="final-submit" id="final-submit">Submit</button>
+                    <button class="form-container-button" name="previous">Previous</button>
+                    <button class="form-container-button" name="final-submit" id="final-submit">Submit</button>
                 </div>
             </form>
             <div class="form-review">
-                        <div class="form-review-face">
-                            <div class="face-one"><img src="./assets/images/profile-1.jpeg" width="100%" height="100%" alt=""></div>
-                            <div class="face-one"><img src="./assets/images/profile-2.jpeg" width="100%" height="100%" alt=""></div>
-                            <div class="face-one"><img src="./assets/images/profile-3.jpeg" width="100%" height="100%" alt=""></div>
-                        </div>
-                        <small style="color: black;">2023 people shipped till now</small>
-                    </div>
+                <div class="form-review-face">
+                    <div class="face-one"><img src="./assets/images/profile-1.jpeg" width="100%" height="100%" alt=""></div>
+                    <div class="face-one"><img src="./assets/images/profile-2.jpeg" width="100%" height="100%" alt=""></div>
+                    <div class="face-one"><img src="./assets/images/profile-3.jpeg" width="100%" height="100%" alt=""></div>
+                </div>
+                <small style="color: black;">2023 people shipped till now</small>
+            </div>
         </div>
     </div>
     <!-- POPUP FORM -->
 
     <!-- SIDE FORM -->
-        <div class="side-form-quotes">
-            <div class="side-form-circle circle-one" id="circle-one">Get Quotes</div>
-            <div class="side-form-line line-one" id="line-one" ></div>
-            <div class="side-form-circle circle-two" id="circle-two">Shipping Process</div>
-            <div class="side-form-line line-two" id="line-two"></div>
-            <div class="side-form-circle circle-three" id="circle-three">Successful Delivery</div>
-        </div>
+    <div class="side-form-quotes">
+        <div class="side-form-circle circle-one" id="circle-one">Get Quotes</div>
+        <div class="side-form-line line-one" id="line-one"></div>
+        <div class="side-form-circle circle-two" id="circle-two">Shipping Process</div>
+        <div class="side-form-line line-two" id="line-two"></div>
+        <div class="side-form-circle circle-three" id="circle-three">Successful Delivery</div>
+    </div>
     <!-- SIDE FORM -->
 
     <?php include './footer.php' ?>
@@ -549,17 +590,17 @@ if(mysqli_num_rows($result) > 0){
             // Display the formatted phone number
             document.getElementById('formattedPhoneNumber').textContent = input.value;
         }
-        document.getElementById('form-container-form').addEventListener('submit',function(e){
+        document.getElementById('form-container-form').addEventListener('submit', function(e) {
             e.preventDefault();
             document.getElementById('popup-background').style.display = 'grid';
         })
-        document.getElementById('final-submit-form').addEventListener('submit',function(e){
+        document.getElementById('final-submit-form').addEventListener('submit', function(e) {
             e.preventDefault();
             document.getElementById('popup-background').style.display = 'none';
         })
 
 
-        document.getElementById('final-submit').addEventListener('click',(e)=>{
+        document.getElementById('final-submit').addEventListener('click', (e) => {
             e.preventDefault();
             let from = document.getElementById('from').value;
             let to = document.getElementById('to').value;
@@ -568,36 +609,34 @@ if(mysqli_num_rows($result) > 0){
         })
 
 
-            window.onscroll = (e)=>{
-               height = document.documentElement.scrollTop
-               if(height >= 400){
+        window.onscroll = (e) => {
+            height = document.documentElement.scrollTop
+            if (height >= 400) {
                 document.getElementById('circle-one').style.display = 'grid'
-               }else{
+            } else {
                 document.getElementById('circle-one').style.display = 'none'
-               }
-               if(height >= 500){
-                document.getElementById('line-one').style.transform = 'scaleY(1)';
-               }else{
-                document.getElementById('line-one').style.transform = 'scaleY(0)';
-               }
-               if(height >= 600){
-                document.getElementById('circle-two').style.display = 'grid'
-               }else{
-                document.getElementById('circle-two').style.display = 'none'
-               }
-               if(height >= 700){                
-                document.getElementById('line-two').style.transform = 'scaleY(1)';
-               }else{
-                document.getElementById('line-two').style.transform = 'scaleY(0)';
-               }
-               if(height >= 800){                
-                document.getElementById('circle-three').style.display = 'grid'
-               }
-               else{
-                document.getElementById('circle-three').style.display = 'none'
-               }
             }
-
+            if (height >= 500) {
+                document.getElementById('line-one').style.transform = 'scaleY(1)';
+            } else {
+                document.getElementById('line-one').style.transform = 'scaleY(0)';
+            }
+            if (height >= 600) {
+                document.getElementById('circle-two').style.display = 'grid'
+            } else {
+                document.getElementById('circle-two').style.display = 'none'
+            }
+            if (height >= 700) {
+                document.getElementById('line-two').style.transform = 'scaleY(1)';
+            } else {
+                document.getElementById('line-two').style.transform = 'scaleY(0)';
+            }
+            if (height >= 800) {
+                document.getElementById('circle-three').style.display = 'grid'
+            } else {
+                document.getElementById('circle-three').style.display = 'none'
+            }
+        }
     </script>
 </body>
 

@@ -45,7 +45,7 @@
                 </a>
             </div>
         </div>
-        <div class="section-service-row" style="margin: 2.5% 0;">
+        <!-- <div class="section-service-row" style="margin: 2.5% 0;">
             <div class="section-service-col">
                 <h2 style="color: #3366ff;font-size:2.2rem;">PRICING OPTIONS</h2>
                 <p class="section-service-col-p">We try to <span style="color: #3366ff">accommodate every customer</span> on every job. To help do this we offer both hourly and flat rate pricing, along with custom bundling packages. We pride ourselves on <span style="color: #3366ff">being flexible</span> when matching our skills and services with your needs as a customer. Visit our “Request a FREE Quote” page to submit some info about your job or gives us a call at 954-941-6848 to speak directly to one of our representatives.</p>
@@ -55,7 +55,7 @@
                 <p class="section-service-col-p">Still have questions about different pricing options and how our services work? Click the button below, fill out all the information, and one of our <span style="color: #3366ff">knowledgeable moving coordinators</span> will get in touch with you asap! Can’t wait to get in contact with us? Call us we answer the phone Anytime! 954-941-6848 </p>
                 <button class="section-service-btn">Get a Free Quote Now</button>
             </div>
-        </div>
+        </div> -->
         </div>
     </section>
     <?php include './footer.php' ?>

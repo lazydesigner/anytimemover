@@ -155,12 +155,6 @@
 <a href="<?=base_urlx() ?>services-page" style=cursor:pointer><button><i class=ri-truck-fill></i>Learn More</button></a>
 </div>
 <div class=box>
-<div class=list-of-service-img><img src="<?=base_urlx() ?>assets/images/Moving-South-Florida.png" alt=""></div>
-<h3>PRICING OPTIONS</h3>
-<p>We try to accommodate every customer on every job. See our pricing options.</p>
-<a href="<?=base_urlx() ?>services-page" style=cursor:pointer><button><i class=ri-money-dollar-circle-line></i>Learn More</button></a>
-</div>
-<div class=box>
 <div class=list-of-service-img><img src="<?=base_urlx() ?>assets/images/Best-Movers-South-Florida.png" alt=""></div>
 <h3>LONG DISTANCE MOVES</h3>
 <p>We handle long distance moves with the same dedication and care as our local moves. </p>
