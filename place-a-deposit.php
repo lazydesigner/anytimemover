@@ -82,6 +82,17 @@
                     </div>
                 </div>
             </div>
+            <div class="recent-blogs-col">
+                <div class="blogs">
+                    <div class="blogs-img"><img src="./assets/images/17899070.webp" alt=""></div>
+                    <div style="padding:1% 2%;">
+                        <a href="https://anytimemove.com/ship-cars-from-california-to-georgia">
+                            <h4>Ship Cars from California to Georgia</h4>
+                        </a>
+                        <p class="multiline-ellipsis">When shipping a car, the auto transportation industry provides an accurate quote that reflects current market conditions to ship a car now...</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
