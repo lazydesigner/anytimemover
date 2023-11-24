@@ -9,13 +9,13 @@
 <link rel=preload href=https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css as=style onload='this.onload=null,this.rel="stylesheet"' async>
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/footer.css">
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/navbar.css">
-    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/about.css">
+    <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/about.css?v=1">
 </head>
 <body>
     <div  style="position:relative; width:100%;height:70px"><?php include './navbar.php'; ?></div>
     <section class="about-us" style="text-align: center;">
-        <p class="about-p">What to expect when</p>
-        <h1 class="about-h">Working with Us</h1>
+        <!-- <p class="about-p">What to expect when</p> -->
+        <h1 class="about-h">About us page</h1>
         <div class="design">
                 <div class="line1"></div>
                 <div class=""><i class="ri-star-fill"></i></div>
@@ -23,13 +23,29 @@
             </div>
     </section>
     <section class="para">
-        <p>Located in Coral Springs Florida we strive to make every move a pleasant moving experience. We want every customer to be 100% satisfied while ensuring the moving experience is stress free from beginning to end.</p>
-        <p>We have been moving families and businesses throughout South Florida for over 30 years with amazing satisfaction from all of our clients and customers.</p>
-        <p>We look forward to helping you and your family or business with your next move in south Florida. We hope your next move is with us so we have a chance to demonstrate the passion and dedication we have for the moving business</p>
-        <p>Our mission: To make your move as stress free and and pleasant for you as possible.  Our motto is service with a smile.  We realize without you there is no us and because of that our commitment to you is unmatched. </p>
-        <p>Professionals will undertake every part of your move and we will treat you as if they were moving their own family.  </p>
-        <p>Moving services over the years have taken on a bad reputation of being unreliable, careless, and unprofessional.  At Anytime Movers we aim to dissolve that negative stereotype and show our customers that there are still professionals in the industry. </p>
-        <p>Our most important job to date is the current one.  We will treat each and every customer as though they were our first customer ever, over thirty years ago.</p>
+     
+<p>Welcome to Anytime Movers, USA's trusted experts in moving that can help you relocate your belongings to and from any part of the USA. Our experience made us take pride in being seamless and reliable movers for many families and business firms as they allowed us to ship their belongings, office requirements and cars. We have satisfied many customers with our service and custom approach to our clients.</p>
+
+<h2>About Us:</h2>
+<p>Here at Anytime Movers, we understand that moving could be challenging and time-consuming as relocation is not a regular thing it comes with its unique set of situations and responsibilities. We have employed experts dedicated to this field, We are here to help you in any situation related to moving by making moving an easy and stress-free process so that you can shift stress-free and we can bring your belongings to your new place.</p>
+<h2>Who We Are:</h2>
+<p>Anytime Movers is a privately owned company that is located in Florida. We have employed experts who are skilled professionals in residential moves, corporate relocations, car shipping, and long-distance moves. Our team bring dedication, expertise and proper supervision to your moving requirements.</p>
+<h2>What Sets Us Apart:</h2>
+<p>Personalized  Approach: We understand that every customer is unique, as well as their moving requirements. We try to provide you with services according to your needs so that you can best out of us and get complete and satisfying moving service.</p>
+<p><strong>Expert at Work:</strong> Our team is well-trained and experienced contributing best to the table. Our team is committed to their work they take every task from packing and loading, very sincerely, which makes us deliver the highest standard of services with care and precision.</p>
+<p><strong>Inclusive Services:</strong> Whether shifting to a new home, relocating your whole office or wanting to ship your car under a long-distance move. We are here with expertise and resources to make your moving process smooth and reliable.</p>
+<p><strong>Transparent pricing:</strong> We believe in transparency whether it is a working quote or working, we provide the best. From quote to your home we try to optimize the resources with proper and clear communication and genuine pricing.</p>
+<p><strong>Advanced Equipment:</strong> Like our experts, we have the latest technology whether it is packing machinery or a fleet of carriers, we are equipped with the best to ensure that your belonging is shipped with safety and security.</p>
+
+<h2>Why Choose Us</h2>
+<p><strong>Reliability:</strong> Our experience and working made us a reliable company in the Moving industry. Many customers have already trusted us with our most valuable and sensitive possessions.</p>
+<p><strong>Experience:</strong> With years of working in this industry, we have discovered and perfected almost every skill that is important for moving your belongings. </p>
+<p><strong>Custom Approach:</strong> We understand everyone is different along with their needs. Our experts are here to help and provide you with the best solutions that fit your requirements well.</p>
+<p><strong>Affordability:</strong> We do not compromise the level of service with cost. We try to provide you best service with transparent and competitive pricing.</p>
+<h2>Contact Us</h2>
+<p>Are you ready to make your moving easy and fast . Contact Anytime movers experts by mailing or contacting at 984-235-6077 for free but accurate consultancy by our expert. Go to our Cost calculator section to discover quotes about your requirements. </p><p>
+With Anytime Movers you will get stress-free, efficient and reliable moving of your belongings.</p>
+
     </section>
     <?php include './footer.php' ?>
     
