@@ -28,7 +28,7 @@
 
         <div class="about-contact-row2" style="align-items:center">
             <div class="main-p">
-                <div class="main-p-img"><img src="./assets/images/polotno2.png" width="100%" height="100%" alt=""></div>
+                <div class="main-p-img"><img src="<?= base_urlx() ?>assets/images/polotno2.png" width="100%" height="100%" alt=""></div>
             </div>
             <div class="main-p">
             <p>Welcome to Anytime Movers, USA's trusted experts in moving that can help you relocate your belongings to and from any part of the USA. Our experience made us take pride in being seamless and reliable movers for many families and business firms as they allowed us to ship their belongings, office requirements and cars. We have satisfied many customers with our service and custom approach to our clients.</p>
@@ -45,7 +45,7 @@
         </div>
         <div class="who-we-are-col">
             <div class="who-we-are-img">
-                <img src="./assets/images/polotno.png" width="100%" height="100%" alt="">
+                <img src="<?= base_urlx() ?>assets/images/polotno.png" width="100%" height="100%" alt="">
             </div>
         </div>
     </div>
@@ -102,7 +102,7 @@
     <div class="about-contact-row">
         <div class="about-contact-col">
             <div class="about-contact-img">
-                <img src="./assets/images/5138237.jpg" width="100%" height="100%" alt="">
+                <img src="<?= base_urlx() ?>assets/images/5138237.jpg" width="100%" height="100%" alt="">
             </div>
         </div>
         <div class="about-contact-col">
