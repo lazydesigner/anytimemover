@@ -1,7 +1,7 @@
 .about-us{
     width: 100%;
     height: auto;
-    padding: 5%;
+    padding: 5% 5% 0% 5%;
 }
 .about-p{
 font-size: 1.5rem;
@@ -14,15 +14,215 @@ font-style: italic;
     font-size: 3rem;
     margin:1% 0;
 }
-.para{
-    padding: 3% 2%;
-}
 .para p{
     font-size: 20px;
     line-height: 25px;
     margin: 2% 0;
 }
 
+.about-contact-row{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+}
+
+.about-contact-col{
+    flex: 1;
+    height: 100%;
+}
+.about-contact-img{
+    width: 100%;
+    height: 100%;
+}
+.about-contact-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about-contact-detail{
+    padding:4% 0 .5% 3%;
+}
+.about-contact-col h2{
+    font-size: 3rem;
+    padding: 0;
+    margin: 0;
+}
+.about-contact-col p{
+    font-size: 23px;
+}
+.about-contact-detail button{
+    width: 150px;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    margin-left: 5%;
+}
+.about-contact-detail button::before{
+    content: url('../images/phone-fill.png');
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    left: -20%;
+    top: -10px;
+    position: absolute;
+    z-index: 1;
+    background-color: whitesmoke;
+    border: 5px solid dodgerblue;
+}
+.why-choose-us{
+    padding: 2%;
+}
+.why-choose-heading{
+    text-align: center;
+    font-size: 1.4rem;
+}
+.why-choose-content{
+    background-color: rgb(0, 41, 128);
+    /* width: 50%; */
+    margin: auto;
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+.why-choose-one{padding: 2%;background-color: rgb(247, 247, 247);}
+.one{
+   border-bottom: 5px solid rgb(0, 41, 128);
+   border-right: 5px solid rgb(0, 41, 128);
+   /* text-align: end; */
+}
+.two{   
+    border-bottom: 5px solid rgb(0, 41, 128);
+    border-left: 5px solid rgb(0, 41, 128);
+}
+.three{
+    border-top: 5px solid rgb(0, 41, 128);
+    border-right: 5px solid rgb(0, 41, 128);
+    /* text-align: end; */
+}
+.four{   
+    border-top: 5px solid rgb(0, 41, 128);
+    border-left: 5px solid rgb(0, 41, 128);
+}
+.about-apart{
+    background-color: rgba(218, 165, 32, 0.719);
+    /* background-color: goldenrod; */
+}
+.about-apart-col{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-apart-grid{
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    /* gap: 5px 5px;  */
+}
+.about-apart-col{
+    padding: 2%;
+}
+.about-apart-col-detail{
+    text-align: center;
+}
+.about-apart-col-detail p{
+    width: 60%;
+    margin: auto;
+}
+.about-apart-col-detail h2{
+    font-size: 2.5rem;
+}
+.about-apart-grid-col p{
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.about-apart-grid-col h3{
+    font-size: 1.5rem;
+    text-align: center;
+}
+.about-apart-grid-col:nth-child(1){
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    color: whitesmoke;
+    background-color: black;
+}
+.about-apart-grid-col:nth-child(4){
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    color: whitesmoke;
+    background-color: black;
+}
+.who-we-are{
+    padding: 5%;
+}
+.who-we-are h2{
+    font-size: 2.7rem;
+}
+.who-we-are p{
+    font-size: 22px;
+    line-height: 25px;
+}
+.who-we-are-col{
+    flex: 1;
+}
+.who-we-are-img{
+    width: 500px;
+    height: 500px;
+}
+.who-we-are-col img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.main-p-img{
+    width: 600px;
+    height: 400px;
+}
+.main-p-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.about-contact-row2{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+/* .main-p{
+    flex: 1;
+} */
+
+
+
 @media screen and (max-width:500px) {
-    
+ .about-contact-row2, .about-contact-row{
+    flex-wrap: wrap;
+    height: auto;
+ }   
+ .who-we-are-img, .main-p-img{
+    width: auto;
+    height: auto;
+ }
+ .who-we-are-col{flex: 100%;}
+ .why-choose-content{
+    flex-wrap: wrap;
+ }
+ .about-contact-col{
+    flex: 100%;
+ }
+
 }
