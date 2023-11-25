@@ -42,7 +42,7 @@
         <div class="more-services-container">
             <a href="https://anytimemove.com/open-auto-transport-service" class="more-services-box">
                 <div class="more-services-img">
-                    <img src="./assets/images/87210796.webp" width="100%" height="100%" alt="">
+                    <img src="<?=base_urlx() ?>assets/images/87210796.webp" width="100%" height="100%" alt="">
                 </div>
                 <div class="more-services-text">
                     <h2>Open Auto Transport Services </h2>
@@ -52,7 +52,7 @@
             </a>
             <a href="https://anytimemove.com/enclosed-auto-transport-service" class="more-services-box">
                 <div class="more-services-img">
-                    <img src="./assets/images/enclosed.jpg" width="100%" height="100%" alt="">
+                    <img src="<?=base_urlx() ?>assets/images/enclosed.jpg" width="100%" height="100%" alt="">
                 </div>
                 <div class="more-services-text">
                     <h2>Enclosed Auto Transport Service</h2>
@@ -62,7 +62,7 @@
             </a>
             <a href="https://anytimemove.com/best-car-transport-service" class="more-services-box">
                 <div class="more-services-img">
-                    <img src="./assets/images/17899070.webp" width="100%" height="100%" alt="">
+                    <img src="<?=base_urlx() ?>assets/images/17899070.webp" width="100%" height="100%" alt="">
                 </div>
                 <div class="more-services-text">
                     <h2>Best Car Transport Service</h2>
@@ -72,7 +72,7 @@
             </a>
             <a href="https://anytimemove.com/terminal-to-terminal-auto-transport" class="more-services-box">
                 <div class="more-services-img">
-                    <img src="./assets/images/terminal.jpg" width="100%" height="100%" alt="">
+                    <img src="<?=base_urlx() ?>assets/images/terminal.jpg" width="100%" height="100%" alt="">
                 </div>
                 <div class="more-services-text">
                     <h2>Terminal to Terminal Auto Transport</h2>
@@ -82,7 +82,7 @@
             </a>
             <a href="https://anytimemove.com/door-to-door-auto-transport" class="more-services-box">
                 <div class="more-services-img">
-                    <img src="./assets/images/door-to-door.jpg" width="100%" height="100%" alt="">
+                    <img src="<?=base_urlx() ?>assets/images/door-to-door.jpg" width="100%" height="100%" alt="">
                 </div>
                 <div class="more-services-text">
                     <h2>Door To Door Auto Transport</h2>
@@ -92,7 +92,7 @@
             </a>
             <a href="https://anytimemove.com/military-car-shipping-service" class="more-services-box">
                 <div class="more-services-img">
-                    <img src="./assets/images/military.jpg" width="100%" height="100%" alt="">
+                    <img src="<?=base_urlx() ?>assets/images/military.jpg" width="100%" height="100%" alt="">
                 </div>
                 <div class="more-services-text">
                     <h2>Military Car Shipping Service</h2>
@@ -102,7 +102,7 @@
             </a>
             <a href="https://anytimemove.com/snowbird-auto-transport" class="more-services-box">
                 <div class="more-services-img">
-                    <img src="./assets/images/snowbird.jpeg" width="100%" height="100%" alt="">
+                    <img src="<?=base_urlx() ?>assets/images/snowbird.jpeg" width="100%" height="100%" alt="">
                 </div>
                 <div class="more-services-text">
                     <h2>Snowbird Auto Transport </h2>
@@ -112,7 +112,7 @@
             </a>
             <a href="https://anytimemove.com/relocating-families-car-move-services" class="more-services-box">
                 <div class="more-services-img">
-                    <img src="./assets/images/family-unloading-boxes-moving-day.webp" width="100%" height="100%" alt="">
+                    <img src="<?=base_urlx() ?>assets/images/family-unloading-boxes-moving-day.webp" width="100%" height="100%" alt="">
                 </div>
                 <div class="more-services-text">
                     <h2>Relocating Families Car Move Services</h2>
