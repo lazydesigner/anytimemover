@@ -15,7 +15,7 @@ if (!$con) {
 
 $pages = array(
     'services-page',
-    'more-services',
+    'services',
     'blogs',
     'about-us',
     'request-a-free-quote',
