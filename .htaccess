@@ -10,7 +10,7 @@ ReWriteRule ^$  index.php [NC,L]
 
 # Company Reviews Start
 
-ReWriteRule ^more-services([/]?)$ more-services.php [NC,L]
+ReWriteRule ^services([/]?)$ more-services.php [NC,L]
 ReWriteRule ^services-page([/]?)$ services-page.php [NC,L]
 ReWriteRule ^about-us([/]?)$ about-us.php [NC,L]
 ReWriteRule ^request-a-free-quote([/]?)$ request-a-free-quote.php [NC,L]
