@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>More Services - Anytime Movers</title>
     <meta name="google-site-verification" content="hD9r2-2bnGslcHbfsdFhf3xbpYGfWY0Mhr-8WERfEF4" />
+    <meta name="google-site-verification" content="isdvggSz8tbxSHdMuIaow-GRou9lYvTSo-gJysoRRNk" />
 <link rel=preload href=https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css as=style onload='this.onload=null,this.rel="stylesheet"' async>
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/footer.css">
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/navbar.css">

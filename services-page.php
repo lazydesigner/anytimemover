@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/navbar.css">
     <link rel="stylesheet" href="<?=base_urlx() ?>assets/css/services-page.css">
     <meta name="google-site-verification" content="hD9r2-2bnGslcHbfsdFhf3xbpYGfWY0Mhr-8WERfEF4" />
+    <meta name="google-site-verification" content="isdvggSz8tbxSHdMuIaow-GRou9lYvTSo-gJysoRRNk" />
 </head>
 
 <body>

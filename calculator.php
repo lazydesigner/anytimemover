@@ -10,6 +10,8 @@
     <link rel=stylesheet href="<?= base_urlx() ?>assets/css/calculator.css" async>
     <link rel=stylesheet href="<?= base_urlx() ?>assets/css/footer.css" async>
     <link rel=stylesheet href="<?= base_urlx() ?>assets/css/navbar.css" async>
+    <meta name="google-site-verification" content="hD9r2-2bnGslcHbfsdFhf3xbpYGfWY0Mhr-8WERfEF4" />
+    <meta name="google-site-verification" content="isdvggSz8tbxSHdMuIaow-GRou9lYvTSo-gJysoRRNk" />
 </head>
 
 <body>

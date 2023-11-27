@@ -8,6 +8,7 @@
 <link rel=preload href="<?=base_urlx() ?>assets/css/index.css" as=style>
 <link rel=preload href="<?=base_urlx() ?>assets/css/footer.css" as=style>
 <link rel=preload href="<?=base_urlx() ?>assets/css/navbar.css" as=style>
+<meta name="google-site-verification" content="isdvggSz8tbxSHdMuIaow-GRou9lYvTSo-gJysoRRNk" />
 <title>Residential & Corporate Moving | Long Distance & Car Movers | Anytime Move</title>
 <meta name=title content="Residential & Corporate Moving | Long Distance & Car Movers | Anytime Move">
 <meta name=description content="Anytimemoves is a reliable and experienced company that deals in residential moving ,corporate moving with long distance moves facilities and contact us for your requirements we will provide best services at affordable prices.">

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us - Anytime Movers</title>
     <meta name="google-site-verification" content="hD9r2-2bnGslcHbfsdFhf3xbpYGfWY0Mhr-8WERfEF4" />
+    <meta name="google-site-verification" content="isdvggSz8tbxSHdMuIaow-GRou9lYvTSo-gJysoRRNk" />
     <link rel=preload href=https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css as=style onload='this.onload=null,this.rel="stylesheet"' async>
     <link rel="stylesheet" href="<?= base_urlx() ?>assets/css/footer.css">
     <link rel="stylesheet" href="<?= base_urlx() ?>assets/css/navbar.css">
@@ -108,10 +109,10 @@
         <div class="about-contact-col">
             <div class="about-contact-detail">
                 <h2>Contact Us</h2>
-                <p>Are you ready to make your moving easy and fast . Contact Anytime movers experts by mailing or contacting at 984-235-6077 for free but accurate consultancy by our expert. Go to our Cost calculator section to discover quotes about your requirements. </p>
+                <p>Are you ready to make your moving easy and fast . Contact Anytime movers experts by mailing or contacting at (985) 243-4053 for free but accurate consultancy by our expert. Go to our Cost calculator section to discover quotes about your requirements. </p>
                 <p>
                     With Anytime Movers you will get stress-free, efficient and reliable moving of your belongings.</p>
-                <a href="tel: 984-235-6077"><button>Call Now</button></a>
+                <a href="tel: (985) 243-4053"><button>Call Now</button></a>
             </div>
         </div>
     </div>
