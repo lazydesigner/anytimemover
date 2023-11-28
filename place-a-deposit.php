@@ -95,6 +95,61 @@
                     </div>
                 </div>
             </div>
+            <div class="recent-blogs-col">
+                <div class="blogs">
+                    <div class="blogs-img"><img src="./assets/images/17899070.webp" alt=""></div>
+                    <div style="padding:1% 2%;">
+                        <a href="https://anytimemove.com/buy-a-car-on-craigslist">
+                            <h4>Buy A Car on Craigslist</h4>
+                        </a>
+                        <p class="multiline-ellipsis">If you have just bought a car on Craigslist that is not in working condition, or you need to ship it off to a different location, you may need to hire an auto transporter...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-blogs-col">
+                <div class="blogs">
+                    <div class="blogs-img"><img src="./assets/images/17899070.webp" alt=""></div>
+                    <div style="padding:1% 2%;">
+                        <a href="https://anytimemove.com/how-to-your-car-detailing-like-a-pro-seven-easy-steps">
+                            <h4>How to Your Car Detailing Like a Pro: 7 Easy Steps?</h4>
+                        </a>
+                        <p class="multiline-ellipsis">Washing your truck or car is one of the quickest and easiest ways to care for & maintain your car. And if you are like us, you are a firm believer that a clean car...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-blogs-col">
+                <div class="blogs">
+                    <div class="blogs-img"><img src="./assets/images/17899070.webp" alt=""></div>
+                    <div style="padding:1% 2%;">
+                        <a href="https://anytimemove.com/how-auto-transport-pricing-works">
+                            <h4>How Auto Transport Pricing Works?</h4>
+                        </a>
+                        <p class="multiline-ellipsis">Auto transport pricing is surprisingly complicated, even if you use one of the best companies. However, understanding a few basic concepts can ease your...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-blogs-col">
+                <div class="blogs">
+                    <div class="blogs-img"><img src="./assets/images/17899070.webp" alt=""></div>
+                    <div style="padding:1% 2%;">
+                        <a href="https://anytimemove.com/what-is-hot-shot-car-transport">
+                            <h4>What is Hot Shot Car Transport?</h4>
+                        </a>
+                        <p class="multiline-ellipsis">Utilizing medium-duty trucks that pull smaller trailers, hotshot car hauling is a fast form of cross-country car transport. Hotshot car transport is a quick and...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-blogs-col">
+                <div class="blogs">
+                    <div class="blogs-img"><img src="./assets/images/17899070.webp" alt=""></div>
+                    <div style="padding:1% 2%;">
+                        <a href="https://anytimemove.com/what-is-the-fastest-way-to-ship-a-car">
+                            <h4>What is the Fastest Way to Ship a Car?</h4>
+                        </a>
+                        <p class="multiline-ellipsis">Most of us today are go-getters. We work hard and live fast – not because we like the rush of things but because there’s no time for stopping. It’s always one thing...</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
