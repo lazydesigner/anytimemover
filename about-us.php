@@ -5,13 +5,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Anytime Movers</title>
+    <title>Best Moving Company | Anytime Movers - About Us</title>
     <meta name="google-site-verification" content="hD9r2-2bnGslcHbfsdFhf3xbpYGfWY0Mhr-8WERfEF4" />
     <meta name="google-site-verification" content="isdvggSz8tbxSHdMuIaow-GRou9lYvTSo-gJysoRRNk" />
     <link rel=preload href=https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css as=style onload='this.onload=null,this.rel="stylesheet"' async>
     <link rel="stylesheet" href="<?= base_urlx() ?>assets/css/footer.css">
     <link rel="stylesheet" href="<?= base_urlx() ?>assets/css/navbar.css">
-    <link rel="stylesheet" href="<?= base_urlx() ?>assets/css/about.css?v=2">
+    <link rel="stylesheet" href="<?= base_urlx() ?>assets/css/about.css?v=2">    
+
+    <meta name="title" content="Best Moving Company | Anytime Movers - About Us">
+    <meta name="description" content="Welcome to Anytime Movers, USA's trusted experts in moving that can help you relocate your belongings to and from any part of the USA." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Best Moving Company | Anytime Movers - About Us"/>
+    <meta property="og:description" content="Welcome to Anytime Movers, USA's trusted experts in moving that can help you relocate your belongings to and from any part of the USA. " />
+    <meta property="og:url" content="https://anytimemove.com/about-us" />
+    <meta property="og:site_name" content="Best Moving Company | Anytime Movers - About Us" />
+    <meta name='robots' content='index' />
+    <meta name="keywords" content="Best Moving Company, Auto movers company, Auto movers services." />
+    <meta property="article:tag" content="Best Moving Company" />
+    <meta property="article:tag" content="Auto movers company" />
+    <meta property="article:tag" content="Auto movers services" />
+
+
 </head>
 
 <body>
@@ -29,7 +44,7 @@
 
         <div class="about-contact-row2" style="align-items:center">
             <div class="main-p">
-                <div class="main-p-img"><img src="<?= base_urlx() ?>assets/images/polotno2.png" width="100%" height="100%" alt=""></div>
+                <div class="main-p-img"><img src="<?= base_urlx() ?>assets/images/polotno2.png" width="100%" height="100%" alt="Best Moving Company"></div>
             </div>
             <div class="main-p">
             <p>Welcome to Anytime Movers, USA's trusted experts in moving that can help you relocate your belongings to and from any part of the USA. Our experience made us take pride in being seamless and reliable movers for many families and business firms as they allowed us to ship their belongings, office requirements and cars. We have satisfied many customers with our service and custom approach to our clients.</p>
@@ -46,7 +61,7 @@
         </div>
         <div class="who-we-are-col">
             <div class="who-we-are-img">
-                <img src="<?= base_urlx() ?>assets/images/polotno.png" width="100%" height="100%" alt="">
+                <img src="<?= base_urlx() ?>assets/images/polotno.png" width="100%" height="100%" alt="Auto movers company">
             </div>
         </div>
     </div>
@@ -103,7 +118,7 @@
     <div class="about-contact-row">
         <div class="about-contact-col">
             <div class="about-contact-img">
-                <img src="<?= base_urlx() ?>assets/images/5138237.jpg" width="100%" height="100%" alt="">
+                <img src="<?= base_urlx() ?>assets/images/5138237.jpg" width="100%" height="100%" alt="Auto movers services">
             </div>
         </div>
         <div class="about-contact-col">
