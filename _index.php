@@ -120,6 +120,10 @@ if (mysqli_num_rows($result) > 0) {
         }
         ol li{
             margin: 1% 0;}
+            .content a{
+                text-decoration: none;
+                color: dodgerblue;
+            }
     </style>
 
 
