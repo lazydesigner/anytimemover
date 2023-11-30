@@ -33,7 +33,7 @@ if (mysqli_num_rows($result) > 0) {
     <link rel=preload href=https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css as=style onload='this.onload=null,this.rel="stylesheet"' async>
     <link rel="stylesheet" href="<?= base_urlx() ?>assets/css/footer.css">
     <link rel="stylesheet" href="<?= base_urlx() ?>assets/css/navbar.css">
-    <link rel="stylesheet" href="<?= base_urlx() ?>assets/css/_index.css?v=9">
+    <link rel="stylesheet" href="<?= base_urlx() ?>assets/css/_index.css?v=10">
     <meta name="google-site-verification" content="isdvggSz8tbxSHdMuIaow-GRou9lYvTSo-gJysoRRNk" />
     <style>
         .side-form-quotes {
