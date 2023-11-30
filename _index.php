@@ -115,6 +115,11 @@ if (mysqli_num_rows($result) > 0) {
             /* start showing ellipsis when 3rd line is reached */
             /* white-space: pre-wrap; let the text wrap preserving spaces */
         }
+        ol{
+            font-size:20px;
+        }
+        ol li{
+            margin: 1% 0;}
     </style>
 
 
