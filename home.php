@@ -35,6 +35,28 @@ if (mysqli_num_rows($result) > 0) {
     <link rel="stylesheet" href="./assets/css/footer.css">
     <title><?= $row['title'] ?></title>
     <?= $row['meta'] ?>
+
+    <style>
+        
+
+        .multiline-ellipsis {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 4;
+            /* start showing ellipsis when 3rd line is reached */
+            /* white-space: pre-wrap; let the text wrap preserving spaces */
+        }
+
+        .multiline-ellipsis2 {
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 6;
+            /* start showing ellipsis when 3rd line is reached */
+            /* white-space: pre-wrap; let the text wrap preserving spaces */
+        }
+    </style>
 </head>
 
 <body>
@@ -47,10 +69,10 @@ if (mysqli_num_rows($result) > 0) {
             <div class="menu" id="menu">
                 <div class="close-the-nav" id="close-the-nav"><i class="ri-close-line"></i></div>
                 <ul>
-                    <li><a href="">Our Services</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Get Quotes</a></li>
-                    <li><a href="">Blogs</a></li>
+                    <li><a href="<?=base_urlx() ?>#service-section">Our Services</a></li>
+                    <li><a href="about-us">About Us</a></li>
+                    <li><a href="calculator">Get Quotes</a></li>
+                    <li><a href="blogs">Blogs</a></li>
                 </ul>
             </div>
             <div class="phone-menu" >
@@ -63,6 +85,15 @@ if (mysqli_num_rows($result) > 0) {
             <div class="hero-section-detail hero-section-col">
                 <h1><?= $row['h1'] ?></h1>
                 <div class="hero-section-point">
+                <?php
+                    if ($hide_and_seek) {
+                    ?>
+                        <div class="hero-point multiline-ellipsis">
+                            <?= $row['h1_about'] ?>
+                        </div>
+                    <?php
+                    } else {
+                    ?>
                     <div class="hero-section-point-body">
                         <div class="hero-point">
                             <p><?= $row['ponit1'] ?></p>
@@ -78,6 +109,7 @@ if (mysqli_num_rows($result) > 0) {
                             <p><?= $row['ponit3'] ?></p>
                         </div>
                     </div>
+                    <?php } ?>
                 </div>
             </div>
             <div class="hero-section-image hero-section-col">
