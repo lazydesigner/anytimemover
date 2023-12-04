@@ -27,8 +27,11 @@ if (mysqli_num_rows($result) > 0) {
 <html lang="en">
 
 <head>
+    <link rel=preload as=image href="<?=base_urlx() ?>20123577_6209999.jpg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="hD9r2-2bnGslcHbfsdFhf3xbpYGfWY0Mhr-8WERfEF4" />
+    <meta name="google-site-verification" content="isdvggSz8tbxSHdMuIaow-GRou9lYvTSo-gJysoRRNk" />
     <link rel=preload href=https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css as=style onload='this.onload=null,this.rel="stylesheet"' async>
     <link rel="stylesheet" href="./assets/css/home.css?v=1">
     <!-- <link rel="stylesheet" href="<?= base_urlx() ?>assets/css/navbar.css"> -->
