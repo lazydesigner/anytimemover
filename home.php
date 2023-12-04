@@ -58,7 +58,8 @@ if (mysqli_num_rows($result) > 0) {
         }
         .hero-points p{
             font-size: 1.2rem;
-            line-height: 23px;
+            line-height: 24px;
+            width: 90%;
         }
     </style>
 </head>
