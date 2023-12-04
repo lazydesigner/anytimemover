@@ -588,7 +588,7 @@ footer a{text-decoration: none;}
 }
 .phone-menu{display: none;}
 .footer-nav{width: 85%;}
-footer .flex2{font-size:11.5px;}
+footer .flex2{font-size:11.5px;display:flex}
 .close-the-nav{display: none;}
 /* WHY US */
 

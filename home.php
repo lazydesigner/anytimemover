@@ -30,7 +30,7 @@ if (mysqli_num_rows($result) > 0) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel=preload href=https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css as=style onload='this.onload=null,this.rel="stylesheet"' async>
-    <link rel="stylesheet" href="./assets/css/home.css">
+    <link rel="stylesheet" href="./assets/css/home.css?v=1">
     <!-- <link rel="stylesheet" href="<?= base_urlx() ?>assets/css/navbar.css"> -->
     <link rel="stylesheet" href="./assets/css/footer.css">
     <title><?= $row['title'] ?></title>
