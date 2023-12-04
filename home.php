@@ -27,7 +27,7 @@ if (mysqli_num_rows($result) > 0) {
 <html lang="en">
 
 <head>
-    <link rel=preload as=image href="<?=base_urlx() ?>20123577_6209999.jpg">
+    <link rel=preload as=image href="<?=base_urlx() ?>20123577_6209999.webp">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="google-site-verification" content="hD9r2-2bnGslcHbfsdFhf3xbpYGfWY0Mhr-8WERfEF4" />
@@ -121,7 +121,7 @@ if (mysqli_num_rows($result) > 0) {
                 </div>
             </div>
             <div class="hero-section-image hero-section-col">
-                <img src="./20123577_6209999.jpg" width="100%" height="100%" alt="<?= $row['h1'] ?>">
+                <img src="./20123577_6209999.webp" width="100%" height="100%" alt="<?= $row['h1'] ?>">
             </div>
         </div>
         <div class="hero-section-form">
