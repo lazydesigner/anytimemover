@@ -88,8 +88,8 @@ if (mysqli_num_rows($result) > 0) {
                 <?php
                     if ($hide_and_seek) {
                     ?>
-                        <div class="hero-point multiline-ellipsis">
-                            <?= $row['h1_about'] ?>
+                        <div class="hero-points multiline-ellipsis">
+                            <p><?= $row['h1_about'] ?><p>
                         </div>
                     <?php
                     } else {
