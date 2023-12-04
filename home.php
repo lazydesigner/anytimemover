@@ -56,6 +56,10 @@ if (mysqli_num_rows($result) > 0) {
             /* start showing ellipsis when 3rd line is reached */
             /* white-space: pre-wrap; let the text wrap preserving spaces */
         }
+        .hero-points p{
+            font-size: 1.2rem;
+            line-height: 23px;
+        }
     </style>
 </head>
 
