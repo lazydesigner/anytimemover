@@ -20,7 +20,7 @@ ReWriteRule ^customer-reviews([/]?)$ customer-reviews.php [NC,L]
 ReWriteRule ^faqs([/]?)$ faq.php [NC,L]
 RewriteRule ^sitemap\.xml/?$ sitemap.xml
 
-ReWriteRule ^([0-9A-Za-z\-]+)([/]?)([/]?)$ _index.php?page_id=$1 [NC,L]
+ReWriteRule ^([0-9A-Za-z\-]+)([/]?)([/]?)$ home.php?page_id=$1 [NC,L]
 
 #ReWriteRule ^company-reviews/add([/]?)$ pages/add_company_review.php [NC,L]
 #ReWriteRule ^company-reviews/edit/([0-9]+)([/]?)$ pages/edit_company_review.php?_id=$1 [NC,L]

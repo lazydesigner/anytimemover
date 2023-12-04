@@ -78,7 +78,14 @@ footer{
 }
 .follow-btn-div a{text-decoration: none;color: white;}
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:770px) {
+    .footer-top-col:nth-child(1), .footer-top-col:nth-child(5){
+        display: none;
+    }
+    .content-form-contact-h2 button{font-size: 1.2rem;}
+}
+
+@media screen and (max-width:600px) {
     .footer-top-row{
         flex-wrap: wrap;
     }

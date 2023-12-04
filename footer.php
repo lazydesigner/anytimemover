@@ -5,7 +5,7 @@
                 <div class="footer-top-col">
                     <h2>Anytime Movers</h2>
                     <ul>
-                        <li><b style="display: flex;align-items:center;gap:1%;"><i class="ri-mail-line"></i> Info@Anytimemove.com</b></li>
+                        <li><b style="display: flex;align-items:center;gap:1%;"><i class="ri-mail-line"></i> info@anytimemove.com</b></li>
                         <li><b><i class="ri-headphone-fill"></i> Office: (985) 243-4053 </b></li>
                         <li><b><i class="ri-phone-fill"></i> Direct: (985) 243-4053</b></li>
                     </ul>
@@ -35,14 +35,14 @@
             </div>
         </div>
             <div style="background-color: rgb(20, 19, 19);padding:2%;color:lightgrey;">
-            <nav>
+            <nav class="footer-nav" style="display:flex;justify-content:space-between;align-items:start;margin:auto">
                 <p style="color:grey ;">Website created by Profits League, LLC</p>
-                <ul class="flex2">
-                    <li><a style="color:grey ;" href="<?=base_urlx() ?>services">OUR SERVICES</a></li>
-                    <li><a style="color:grey ;" href="<?=base_urlx() ?>about-us">ABOUT US</a></li>
-                    <li><a style="color:grey ;" href="<?=base_urlx() ?>request-a-free-quote">REQUEST A FREE QUOTE</a></li>
-                    <li><a style="color:grey ;" href="<?=base_urlx() ?>blogs">Blogs</a></li>
-                    <li><a style="color:grey ;" href="<?=base_urlx() ?>faqs">Faqs</a></li>
+                <ul class="flex2" style="gap:1%;align-items:center;margin:0;list-style:none;font-weight:700;justify-content:center">
+                    <li style="width:auto;padding:2%;cursor:pointer;text-wrap:nowrap;position:relative"><a style="color:grey ;" href="<?=base_urlx() ?>services">OUR SERVICES</a></li>
+                    <li style="width:auto;padding:2%;cursor:pointer;text-wrap:nowrap;position:relative"><a style="color:grey ;" href="<?=base_urlx() ?>about-us">ABOUT US</a></li>
+                    <li style="width:auto;padding:2%;cursor:pointer;text-wrap:nowrap;position:relative"><a style="color:grey ;" href="<?=base_urlx() ?>request-a-free-quote">REQUEST A FREE QUOTE</a></li>
+                    <li style="width:auto;padding:2%;cursor:pointer;text-wrap:nowrap;position:relative"><a style="color:grey ;" href="<?=base_urlx() ?>blogs">Blogs</a></li>
+                    <li style="width:auto;padding:2%;cursor:pointer;text-wrap:nowrap;position:relative"><a style="color:grey ;" href="<?=base_urlx() ?>faqs">Faqs</a></li>
                 </ul>
             </nav>
             </div>
