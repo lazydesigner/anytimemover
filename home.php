@@ -391,6 +391,9 @@ if (mysqli_num_rows($result) > 0) {
 
         </div>
     </div>
+    <?php
+                    if ($hide_and_seek) {}else{
+                    ?>
     <div class="service-faq">
         <div class="services-heading">
             <h2>FAQ</h2>
@@ -462,6 +465,7 @@ if (mysqli_num_rows($result) > 0) {
             </div>
         </div>
     </div>
+    <?php } ?>
     
 
 
